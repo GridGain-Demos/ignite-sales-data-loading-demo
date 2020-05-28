@@ -1,0 +1,1641 @@
+{
+"payments": [
+	{
+		"customerNumber" : 103,
+		"checkNumber" : "HQ336336",
+		"paymentDate" : "2018-10-19T04:00:00Z",
+		"amount" : 6066.78
+	},
+	{
+		"customerNumber" : 103,
+		"checkNumber" : "JM555205",
+		"paymentDate" : "2017-06-05T04:00:00Z",
+		"amount" : 14571.44
+	},
+	{
+		"customerNumber" : 103,
+		"checkNumber" : "OM314933",
+		"paymentDate" : "2018-12-18T05:00:00Z",
+		"amount" : 1676.14
+	},
+	{
+		"customerNumber" : 112,
+		"checkNumber" : "BO864823",
+		"paymentDate" : "2018-12-17T05:00:00Z",
+		"amount" : 14191.12
+	},
+	{
+		"customerNumber" : 112,
+		"checkNumber" : "HQ55022",
+		"paymentDate" : "2017-06-06T04:00:00Z",
+		"amount" : 32641.98
+	},
+	{
+		"customerNumber" : 112,
+		"checkNumber" : "ND748579",
+		"paymentDate" : "2018-08-20T04:00:00Z",
+		"amount" : 33347.88
+	},
+	{
+		"customerNumber" : 114,
+		"checkNumber" : "GG31455",
+		"paymentDate" : "2017-05-20T04:00:00Z",
+		"amount" : 45864.03
+	},
+	{
+		"customerNumber" : 114,
+		"checkNumber" : "MA765515",
+		"paymentDate" : "2018-12-15T05:00:00Z",
+		"amount" : 82261.22
+	},
+	{
+		"customerNumber" : 114,
+		"checkNumber" : "NP603840",
+		"paymentDate" : "2017-05-31T04:00:00Z",
+		"amount" : 7565.08
+	},
+	{
+		"customerNumber" : 114,
+		"checkNumber" : "NR27552",
+		"paymentDate" : "2018-03-10T05:00:00Z",
+		"amount" : 44894.74
+	},
+	{
+		"customerNumber" : 119,
+		"checkNumber" : "DB933704",
+		"paymentDate" : "2018-11-14T05:00:00Z",
+		"amount" : 19501.82
+	},
+	{
+		"customerNumber" : 119,
+		"checkNumber" : "LN373447",
+		"paymentDate" : "2018-08-08T04:00:00Z",
+		"amount" : 47924.19
+	},
+	{
+		"customerNumber" : 119,
+		"checkNumber" : "NG94694",
+		"paymentDate" : "2019-02-22T05:00:00Z",
+		"amount" : 49523.67
+	},
+	{
+		"customerNumber" : 121,
+		"checkNumber" : "DB889831",
+		"paymentDate" : "2017-02-16T05:00:00Z",
+		"amount" : 50218.95
+	},
+	{
+		"customerNumber" : 121,
+		"checkNumber" : "FD317790",
+		"paymentDate" : "2017-10-28T05:00:00Z",
+		"amount" : 1491.38
+	},
+	{
+		"customerNumber" : 121,
+		"checkNumber" : "KI831359",
+		"paymentDate" : "2018-11-04T05:00:00Z",
+		"amount" : 17876.32
+	},
+	{
+		"customerNumber" : 121,
+		"checkNumber" : "MA302151",
+		"paymentDate" : "2018-11-28T05:00:00Z",
+		"amount" : 34638.14
+	},
+	{
+		"customerNumber" : 124,
+		"checkNumber" : "AE215433",
+		"paymentDate" : "2019-03-05T05:00:00Z",
+		"amount" : 101244.59
+	},
+	{
+		"customerNumber" : 124,
+		"checkNumber" : "BG255406",
+		"paymentDate" : "2018-08-28T04:00:00Z",
+		"amount" : 85410.87
+	},
+	{
+		"customerNumber" : 124,
+		"checkNumber" : "CQ287967",
+		"paymentDate" : "2017-04-11T04:00:00Z",
+		"amount" : 11044.30
+	},
+	{
+		"customerNumber" : 124,
+		"checkNumber" : "ET64396",
+		"paymentDate" : "2019-04-16T04:00:00Z",
+		"amount" : 83598.04
+	},
+	{
+		"customerNumber" : 124,
+		"checkNumber" : "HI366474",
+		"paymentDate" : "2018-12-27T05:00:00Z",
+		"amount" : 47142.70
+	},
+	{
+		"customerNumber" : 124,
+		"checkNumber" : "HR86578",
+		"paymentDate" : "2018-11-02T05:00:00Z",
+		"amount" : 55639.66
+	},
+	{
+		"customerNumber" : 124,
+		"checkNumber" : "KI131716",
+		"paymentDate" : "2017-08-15T04:00:00Z",
+		"amount" : 111654.40
+	},
+	{
+		"customerNumber" : 124,
+		"checkNumber" : "LF217299",
+		"paymentDate" : "2018-03-26T05:00:00Z",
+		"amount" : 43369.30
+	},
+	{
+		"customerNumber" : 124,
+		"checkNumber" : "NT141748",
+		"paymentDate" : "2017-11-25T05:00:00Z",
+		"amount" : 45084.38
+	},
+	{
+		"customerNumber" : 128,
+		"checkNumber" : "DI925118",
+		"paymentDate" : "2017-01-28T05:00:00Z",
+		"amount" : 10549.01
+	},
+	{
+		"customerNumber" : 128,
+		"checkNumber" : "FA465482",
+		"paymentDate" : "2017-10-18T04:00:00Z",
+		"amount" : 24101.81
+	},
+	{
+		"customerNumber" : 128,
+		"checkNumber" : "FH668230",
+		"paymentDate" : "2018-03-24T05:00:00Z",
+		"amount" : 33820.62
+	},
+	{
+		"customerNumber" : 128,
+		"checkNumber" : "IP383901",
+		"paymentDate" : "2018-11-18T05:00:00Z",
+		"amount" : 7466.32
+	},
+	{
+		"customerNumber" : 129,
+		"checkNumber" : "DM826140",
+		"paymentDate" : "2018-12-08T05:00:00Z",
+		"amount" : 26248.78
+	},
+	{
+		"customerNumber" : 129,
+		"checkNumber" : "ID449593",
+		"paymentDate" : "2017-12-11T05:00:00Z",
+		"amount" : 23923.93
+	},
+	{
+		"customerNumber" : 129,
+		"checkNumber" : "PI42991",
+		"paymentDate" : "2017-04-09T04:00:00Z",
+		"amount" : 16537.85
+	},
+	{
+		"customerNumber" : 131,
+		"checkNumber" : "CL442705",
+		"paymentDate" : "2017-03-12T05:00:00Z",
+		"amount" : 22292.62
+	},
+	{
+		"customerNumber" : 131,
+		"checkNumber" : "MA724562",
+		"paymentDate" : "2018-12-02T05:00:00Z",
+		"amount" : 50025.35
+	},
+	{
+		"customerNumber" : 131,
+		"checkNumber" : "NB445135",
+		"paymentDate" : "2018-09-11T04:00:00Z",
+		"amount" : 35321.97
+	},
+	{
+		"customerNumber" : 141,
+		"checkNumber" : "AU364101",
+		"paymentDate" : "2017-07-19T04:00:00Z",
+		"amount" : 36251.03
+	},
+	{
+		"customerNumber" : 141,
+		"checkNumber" : "DB583216",
+		"paymentDate" : "2018-11-01T05:00:00Z",
+		"amount" : 36140.38
+	},
+	{
+		"customerNumber" : 141,
+		"checkNumber" : "DL460618",
+		"paymentDate" : "2019-05-19T04:00:00Z",
+		"amount" : 46895.48
+	},
+	{
+		"customerNumber" : 141,
+		"checkNumber" : "HJ32686",
+		"paymentDate" : "2018-01-30T05:00:00Z",
+		"amount" : 59830.55
+	},
+	{
+		"customerNumber" : 141,
+		"checkNumber" : "ID10962",
+		"paymentDate" : "2018-12-31T05:00:00Z",
+		"amount" : 116208.40
+	},
+	{
+		"customerNumber" : 141,
+		"checkNumber" : "IN446258",
+		"paymentDate" : "2019-03-25T05:00:00Z",
+		"amount" : 65071.26
+	},
+	{
+		"customerNumber" : 141,
+		"checkNumber" : "JE105477",
+		"paymentDate" : "2019-03-18T05:00:00Z",
+		"amount" : 120166.58
+	},
+	{
+		"customerNumber" : 141,
+		"checkNumber" : "JN355280",
+		"paymentDate" : "2017-10-26T04:00:00Z",
+		"amount" : 49539.37
+	},
+	{
+		"customerNumber" : 141,
+		"checkNumber" : "JN722010",
+		"paymentDate" : "2017-02-25T05:00:00Z",
+		"amount" : 40206.20
+	},
+	{
+		"customerNumber" : 141,
+		"checkNumber" : "KT52578",
+		"paymentDate" : "2017-12-09T05:00:00Z",
+		"amount" : 63843.55
+	},
+	{
+		"customerNumber" : 141,
+		"checkNumber" : "MC46946",
+		"paymentDate" : "2018-07-09T04:00:00Z",
+		"amount" : 35420.74
+	},
+	{
+		"customerNumber" : 141,
+		"checkNumber" : "MF629602",
+		"paymentDate" : "2018-08-16T04:00:00Z",
+		"amount" : 20009.53
+	},
+	{
+		"customerNumber" : 141,
+		"checkNumber" : "NU627706",
+		"paymentDate" : "2018-05-17T04:00:00Z",
+		"amount" : 26155.91
+	},
+	{
+		"customerNumber" : 144,
+		"checkNumber" : "IR846303",
+		"paymentDate" : "2018-12-12T05:00:00Z",
+		"amount" : 36005.71
+	},
+	{
+		"customerNumber" : 144,
+		"checkNumber" : "LA685678",
+		"paymentDate" : "2017-04-09T04:00:00Z",
+		"amount" : 7674.94
+	},
+	{
+		"customerNumber" : 145,
+		"checkNumber" : "CN328545",
+		"paymentDate" : "2018-07-03T04:00:00Z",
+		"amount" : 4710.73
+	},
+	{
+		"customerNumber" : 145,
+		"checkNumber" : "ED39322",
+		"paymentDate" : "2018-04-26T04:00:00Z",
+		"amount" : 28211.70
+	},
+	{
+		"customerNumber" : 145,
+		"checkNumber" : "HR182688",
+		"paymentDate" : "2018-12-01T05:00:00Z",
+		"amount" : 20564.86
+	},
+	{
+		"customerNumber" : 145,
+		"checkNumber" : "JJ246391",
+		"paymentDate" : "2017-02-20T05:00:00Z",
+		"amount" : 53959.21
+	},
+	{
+		"customerNumber" : 146,
+		"checkNumber" : "FP549817",
+		"paymentDate" : "2018-03-18T05:00:00Z",
+		"amount" : 40978.53
+	},
+	{
+		"customerNumber" : 146,
+		"checkNumber" : "FU793410",
+		"paymentDate" : "2018-01-16T05:00:00Z",
+		"amount" : 49614.72
+	},
+	{
+		"customerNumber" : 146,
+		"checkNumber" : "LJ160635",
+		"paymentDate" : "2017-12-10T05:00:00Z",
+		"amount" : 39712.10
+	},
+	{
+		"customerNumber" : 148,
+		"checkNumber" : "BI507030",
+		"paymentDate" : "2017-04-22T04:00:00Z",
+		"amount" : 44380.15
+	},
+	{
+		"customerNumber" : 148,
+		"checkNumber" : "DD635282",
+		"paymentDate" : "2018-08-11T04:00:00Z",
+		"amount" : 2611.84
+	},
+	{
+		"customerNumber" : 148,
+		"checkNumber" : "KM172879",
+		"paymentDate" : "2017-12-26T05:00:00Z",
+		"amount" : 105743.00
+	},
+	{
+		"customerNumber" : 148,
+		"checkNumber" : "ME497970",
+		"paymentDate" : "2019-03-27T05:00:00Z",
+		"amount" : 3516.04
+	},
+	{
+		"customerNumber" : 151,
+		"checkNumber" : "BF686658",
+		"paymentDate" : "2017-12-22T05:00:00Z",
+		"amount" : 58793.53
+	},
+	{
+		"customerNumber" : 151,
+		"checkNumber" : "GB852215",
+		"paymentDate" : "2018-07-26T04:00:00Z",
+		"amount" : 20314.44
+	},
+	{
+		"customerNumber" : 151,
+		"checkNumber" : "IP568906",
+		"paymentDate" : "2017-06-18T04:00:00Z",
+		"amount" : 58841.35
+	},
+	{
+		"customerNumber" : 151,
+		"checkNumber" : "KI884577",
+		"paymentDate" : "2018-12-14T05:00:00Z",
+		"amount" : 39964.63
+	},
+	{
+		"customerNumber" : 157,
+		"checkNumber" : "HI618861",
+		"paymentDate" : "2018-11-19T05:00:00Z",
+		"amount" : 35152.12
+	},
+	{
+		"customerNumber" : 157,
+		"checkNumber" : "NN711988",
+		"paymentDate" : "2018-09-07T04:00:00Z",
+		"amount" : 63357.13
+	},
+	{
+		"customerNumber" : 161,
+		"checkNumber" : "BR352384",
+		"paymentDate" : "2018-11-14T05:00:00Z",
+		"amount" : 2434.25
+	},
+	{
+		"customerNumber" : 161,
+		"checkNumber" : "BR478494",
+		"paymentDate" : "2017-11-18T05:00:00Z",
+		"amount" : 50743.65
+	},
+	{
+		"customerNumber" : 161,
+		"checkNumber" : "KG644125",
+		"paymentDate" : "2019-02-02T05:00:00Z",
+		"amount" : 12692.19
+	},
+	{
+		"customerNumber" : 161,
+		"checkNumber" : "NI908214",
+		"paymentDate" : "2017-08-05T04:00:00Z",
+		"amount" : 38675.13
+	},
+	{
+		"customerNumber" : 166,
+		"checkNumber" : "BQ327613",
+		"paymentDate" : "2018-09-16T04:00:00Z",
+		"amount" : 38785.48
+	},
+	{
+		"customerNumber" : 166,
+		"checkNumber" : "DC979307",
+		"paymentDate" : "2018-07-07T04:00:00Z",
+		"amount" : 44160.92
+	},
+	{
+		"customerNumber" : 166,
+		"checkNumber" : "LA318629",
+		"paymentDate" : "2018-02-28T05:00:00Z",
+		"amount" : 22474.17
+	},
+	{
+		"customerNumber" : 167,
+		"checkNumber" : "ED743615",
+		"paymentDate" : "2018-09-19T04:00:00Z",
+		"amount" : 12538.01
+	},
+	{
+		"customerNumber" : 167,
+		"checkNumber" : "GN228846",
+		"paymentDate" : "2017-12-03T05:00:00Z",
+		"amount" : 85024.46
+	},
+	{
+		"customerNumber" : 171,
+		"checkNumber" : "GB878038",
+		"paymentDate" : "2018-03-15T05:00:00Z",
+		"amount" : 18997.89
+	},
+	{
+		"customerNumber" : 171,
+		"checkNumber" : "IL104425",
+		"paymentDate" : "2017-11-22T05:00:00Z",
+		"amount" : 42783.81
+	},
+	{
+		"customerNumber" : 172,
+		"checkNumber" : "AD832091",
+		"paymentDate" : "2018-09-09T04:00:00Z",
+		"amount" : 1960.80
+	},
+	{
+		"customerNumber" : 172,
+		"checkNumber" : "CE51751",
+		"paymentDate" : "2018-12-04T05:00:00Z",
+		"amount" : 51209.58
+	},
+	{
+		"customerNumber" : 172,
+		"checkNumber" : "EH208589",
+		"paymentDate" : "2017-04-20T04:00:00Z",
+		"amount" : 33383.14
+	},
+	{
+		"customerNumber" : 173,
+		"checkNumber" : "GP545698",
+		"paymentDate" : "2018-05-13T04:00:00Z",
+		"amount" : 11843.45
+	},
+	{
+		"customerNumber" : 173,
+		"checkNumber" : "IG462397",
+		"paymentDate" : "2018-03-29T05:00:00Z",
+		"amount" : 20355.24
+	},
+	{
+		"customerNumber" : 175,
+		"checkNumber" : "CITI3434344",
+		"paymentDate" : "2019-05-19T04:00:00Z",
+		"amount" : 28500.78
+	},
+	{
+		"customerNumber" : 175,
+		"checkNumber" : "IO448913",
+		"paymentDate" : "2017-11-19T05:00:00Z",
+		"amount" : 24879.08
+	},
+	{
+		"customerNumber" : 175,
+		"checkNumber" : "PI15215",
+		"paymentDate" : "2018-07-10T04:00:00Z",
+		"amount" : 42044.77
+	},
+	{
+		"customerNumber" : 177,
+		"checkNumber" : "AU750837",
+		"paymentDate" : "2018-04-17T04:00:00Z",
+		"amount" : 15183.63
+	},
+	{
+		"customerNumber" : 177,
+		"checkNumber" : "CI381435",
+		"paymentDate" : "2018-01-19T05:00:00Z",
+		"amount" : 47177.59
+	},
+	{
+		"customerNumber" : 181,
+		"checkNumber" : "CM564612",
+		"paymentDate" : "2018-04-25T04:00:00Z",
+		"amount" : 22602.36
+	},
+	{
+		"customerNumber" : 181,
+		"checkNumber" : "GQ132144",
+		"paymentDate" : "2017-01-30T05:00:00Z",
+		"amount" : 5494.78
+	},
+	{
+		"customerNumber" : 181,
+		"checkNumber" : "OH367219",
+		"paymentDate" : "2018-11-16T05:00:00Z",
+		"amount" : 44400.50
+	},
+	{
+		"customerNumber" : 186,
+		"checkNumber" : "AE192287",
+		"paymentDate" : "2019-03-10T05:00:00Z",
+		"amount" : 23602.90
+	},
+	{
+		"customerNumber" : 186,
+		"checkNumber" : "AK412714",
+		"paymentDate" : "2017-10-27T05:00:00Z",
+		"amount" : 37602.48
+	},
+	{
+		"customerNumber" : 186,
+		"checkNumber" : "KA602407",
+		"paymentDate" : "2018-10-21T04:00:00Z",
+		"amount" : 34341.08
+	},
+	{
+		"customerNumber" : 187,
+		"checkNumber" : "AM968797",
+		"paymentDate" : "2018-11-03T05:00:00Z",
+		"amount" : 52825.29
+	},
+	{
+		"customerNumber" : 187,
+		"checkNumber" : "BQ39062",
+		"paymentDate" : "2018-12-08T05:00:00Z",
+		"amount" : 47159.11
+	},
+	{
+		"customerNumber" : 187,
+		"checkNumber" : "KL124726",
+		"paymentDate" : "2017-03-27T05:00:00Z",
+		"amount" : 48425.69
+	},
+	{
+		"customerNumber" : 189,
+		"checkNumber" : "BO711618",
+		"paymentDate" : "2018-10-03T04:00:00Z",
+		"amount" : 17359.53
+	},
+	{
+		"customerNumber" : 189,
+		"checkNumber" : "NM916675",
+		"paymentDate" : "2018-03-01T05:00:00Z",
+		"amount" : 32538.74
+	},
+	{
+		"customerNumber" : 198,
+		"checkNumber" : "FI192930",
+		"paymentDate" : "2018-12-06T05:00:00Z",
+		"amount" : 9658.74
+	},
+	{
+		"customerNumber" : 198,
+		"checkNumber" : "HQ920205",
+		"paymentDate" : "2017-07-06T04:00:00Z",
+		"amount" : 6036.96
+	},
+	{
+		"customerNumber" : 198,
+		"checkNumber" : "IS946883",
+		"paymentDate" : "2018-09-21T04:00:00Z",
+		"amount" : 5858.56
+	},
+	{
+		"customerNumber" : 201,
+		"checkNumber" : "DP677013",
+		"paymentDate" : "2017-10-20T04:00:00Z",
+		"amount" : 23908.24
+	},
+	{
+		"customerNumber" : 201,
+		"checkNumber" : "OO846801",
+		"paymentDate" : "2018-06-15T04:00:00Z",
+		"amount" : 37258.94
+	},
+	{
+		"customerNumber" : 202,
+		"checkNumber" : "HI358554",
+		"paymentDate" : "2017-12-18T05:00:00Z",
+		"amount" : 36527.61
+	},
+	{
+		"customerNumber" : 202,
+		"checkNumber" : "IQ627690",
+		"paymentDate" : "2018-11-08T05:00:00Z",
+		"amount" : 33594.58
+	},
+	{
+		"customerNumber" : 204,
+		"checkNumber" : "GC697638",
+		"paymentDate" : "2018-08-13T04:00:00Z",
+		"amount" : 51152.86
+	},
+	{
+		"customerNumber" : 204,
+		"checkNumber" : "IS150005",
+		"paymentDate" : "2018-09-24T04:00:00Z",
+		"amount" : 4424.40
+	},
+	{
+		"customerNumber" : 205,
+		"checkNumber" : "GL756480",
+		"paymentDate" : "2017-12-04T05:00:00Z",
+		"amount" : 3879.96
+	},
+	{
+		"customerNumber" : 205,
+		"checkNumber" : "LL562733",
+		"paymentDate" : "2017-09-05T04:00:00Z",
+		"amount" : 50342.74
+	},
+	{
+		"customerNumber" : 205,
+		"checkNumber" : "NM739638",
+		"paymentDate" : "2019-02-06T05:00:00Z",
+		"amount" : 39580.60
+	},
+	{
+		"customerNumber" : 209,
+		"checkNumber" : "BOAF82044",
+		"paymentDate" : "2019-05-03T04:00:00Z",
+		"amount" : 35157.75
+	},
+	{
+		"customerNumber" : 209,
+		"checkNumber" : "ED520529",
+		"paymentDate" : "2018-06-21T04:00:00Z",
+		"amount" : 4632.31
+	},
+	{
+		"customerNumber" : 209,
+		"checkNumber" : "PH785937",
+		"paymentDate" : "2018-05-04T04:00:00Z",
+		"amount" : 36069.26
+	},
+	{
+		"customerNumber" : 211,
+		"checkNumber" : "BJ535230",
+		"paymentDate" : "2017-12-09T05:00:00Z",
+		"amount" : 45480.79
+	},
+	{
+		"customerNumber" : 216,
+		"checkNumber" : "BG407567",
+		"paymentDate" : "2017-05-09T04:00:00Z",
+		"amount" : 3101.40
+	},
+	{
+		"customerNumber" : 216,
+		"checkNumber" : "ML780814",
+		"paymentDate" : "2018-12-06T05:00:00Z",
+		"amount" : 24945.21
+	},
+	{
+		"customerNumber" : 216,
+		"checkNumber" : "MM342086",
+		"paymentDate" : "2017-12-14T05:00:00Z",
+		"amount" : 40473.86
+	},
+	{
+		"customerNumber" : 219,
+		"checkNumber" : "BN17870",
+		"paymentDate" : "2019-03-02T05:00:00Z",
+		"amount" : 3452.75
+	},
+	{
+		"customerNumber" : 219,
+		"checkNumber" : "BR941480",
+		"paymentDate" : "2017-10-18T04:00:00Z",
+		"amount" : 4465.85
+	},
+	{
+		"customerNumber" : 227,
+		"checkNumber" : "MQ413968",
+		"paymentDate" : "2017-10-31T05:00:00Z",
+		"amount" : 36164.46
+	},
+	{
+		"customerNumber" : 227,
+		"checkNumber" : "NU21326",
+		"paymentDate" : "2018-11-02T05:00:00Z",
+		"amount" : 53745.34
+	},
+	{
+		"customerNumber" : 233,
+		"checkNumber" : "BOFA23232",
+		"paymentDate" : "2019-05-20T04:00:00Z",
+		"amount" : 29070.38
+	},
+	{
+		"customerNumber" : 233,
+		"checkNumber" : "II180006",
+		"paymentDate" : "2018-07-01T04:00:00Z",
+		"amount" : 22997.45
+	},
+	{
+		"customerNumber" : 233,
+		"checkNumber" : "JG981190",
+		"paymentDate" : "2017-11-18T05:00:00Z",
+		"amount" : 16909.84
+	},
+	{
+		"customerNumber" : 239,
+		"checkNumber" : "NQ865547",
+		"paymentDate" : "2018-03-15T05:00:00Z",
+		"amount" : 80375.24
+	},
+	{
+		"customerNumber" : 240,
+		"checkNumber" : "IF245157",
+		"paymentDate" : "2018-11-16T05:00:00Z",
+		"amount" : 46788.14
+	},
+	{
+		"customerNumber" : 240,
+		"checkNumber" : "JO719695",
+		"paymentDate" : "2018-03-28T05:00:00Z",
+		"amount" : 24995.61
+	},
+	{
+		"customerNumber" : 242,
+		"checkNumber" : "AF40894",
+		"paymentDate" : "2017-11-22T05:00:00Z",
+		"amount" : 33818.34
+	},
+	{
+		"customerNumber" : 242,
+		"checkNumber" : "HR224331",
+		"paymentDate" : "2019-06-03T04:00:00Z",
+		"amount" : 12432.32
+	},
+	{
+		"customerNumber" : 242,
+		"checkNumber" : "KI744716",
+		"paymentDate" : "2017-07-21T04:00:00Z",
+		"amount" : 14232.70
+	},
+	{
+		"customerNumber" : 249,
+		"checkNumber" : "IJ399820",
+		"paymentDate" : "2018-09-19T04:00:00Z",
+		"amount" : 33924.24
+	},
+	{
+		"customerNumber" : 249,
+		"checkNumber" : "NE404084",
+		"paymentDate" : "2018-09-04T04:00:00Z",
+		"amount" : 48298.99
+	},
+	{
+		"customerNumber" : 250,
+		"checkNumber" : "EQ12267",
+		"paymentDate" : "2019-05-17T04:00:00Z",
+		"amount" : 17928.09
+	},
+	{
+		"customerNumber" : 250,
+		"checkNumber" : "HD284647",
+		"paymentDate" : "2018-12-30T05:00:00Z",
+		"amount" : 26311.63
+	},
+	{
+		"customerNumber" : 250,
+		"checkNumber" : "HN114306",
+		"paymentDate" : "2017-07-18T04:00:00Z",
+		"amount" : 23419.47
+	},
+	{
+		"customerNumber" : 256,
+		"checkNumber" : "EP227123",
+		"paymentDate" : "2018-02-10T05:00:00Z",
+		"amount" : 5759.42
+	},
+	{
+		"customerNumber" : 256,
+		"checkNumber" : "HE84936",
+		"paymentDate" : "2018-10-22T04:00:00Z",
+		"amount" : 53116.99
+	},
+	{
+		"customerNumber" : 259,
+		"checkNumber" : "EU280955",
+		"paymentDate" : "2018-11-06T05:00:00Z",
+		"amount" : 61234.67
+	},
+	{
+		"customerNumber" : 259,
+		"checkNumber" : "GB361972",
+		"paymentDate" : "2017-12-07T05:00:00Z",
+		"amount" : 27988.47
+	},
+	{
+		"customerNumber" : 260,
+		"checkNumber" : "IO164641",
+		"paymentDate" : "2018-08-30T04:00:00Z",
+		"amount" : 37527.58
+	},
+	{
+		"customerNumber" : 260,
+		"checkNumber" : "NH776924",
+		"paymentDate" : "2018-04-24T04:00:00Z",
+		"amount" : 29284.42
+	},
+	{
+		"customerNumber" : 276,
+		"checkNumber" : "EM979878",
+		"paymentDate" : "2019-02-09T05:00:00Z",
+		"amount" : 27083.78
+	},
+	{
+		"customerNumber" : 276,
+		"checkNumber" : "KM841847",
+		"paymentDate" : "2017-11-13T05:00:00Z",
+		"amount" : 38547.19
+	},
+	{
+		"customerNumber" : 276,
+		"checkNumber" : "LE432182",
+		"paymentDate" : "2017-09-28T04:00:00Z",
+		"amount" : 41554.73
+	},
+	{
+		"customerNumber" : 276,
+		"checkNumber" : "OJ819725",
+		"paymentDate" : "2019-04-30T04:00:00Z",
+		"amount" : 29848.52
+	},
+	{
+		"customerNumber" : 278,
+		"checkNumber" : "BJ483870",
+		"paymentDate" : "2018-12-05T05:00:00Z",
+		"amount" : 37654.09
+	},
+	{
+		"customerNumber" : 278,
+		"checkNumber" : "GP636783",
+		"paymentDate" : "2017-03-02T05:00:00Z",
+		"amount" : 52151.81
+	},
+	{
+		"customerNumber" : 278,
+		"checkNumber" : "NI983021",
+		"paymentDate" : "2017-11-24T05:00:00Z",
+		"amount" : 37723.79
+	},
+	{
+		"customerNumber" : 282,
+		"checkNumber" : "IA793562",
+		"paymentDate" : "2017-08-03T04:00:00Z",
+		"amount" : 24013.52
+	},
+	{
+		"customerNumber" : 282,
+		"checkNumber" : "JT819493",
+		"paymentDate" : "2018-08-02T04:00:00Z",
+		"amount" : 35806.73
+	},
+	{
+		"customerNumber" : 282,
+		"checkNumber" : "OD327378",
+		"paymentDate" : "2019-01-03T05:00:00Z",
+		"amount" : 31835.36
+	},
+	{
+		"customerNumber" : 286,
+		"checkNumber" : "DR578578",
+		"paymentDate" : "2018-10-28T04:00:00Z",
+		"amount" : 47411.33
+	},
+	{
+		"customerNumber" : 286,
+		"checkNumber" : "KH910279",
+		"paymentDate" : "2018-09-05T04:00:00Z",
+		"amount" : 43134.04
+	},
+	{
+		"customerNumber" : 298,
+		"checkNumber" : "AJ574927",
+		"paymentDate" : "2018-03-13T05:00:00Z",
+		"amount" : 47375.92
+	},
+	{
+		"customerNumber" : 298,
+		"checkNumber" : "LF501133",
+		"paymentDate" : "2018-09-18T04:00:00Z",
+		"amount" : 61402.00
+	},
+	{
+		"customerNumber" : 299,
+		"checkNumber" : "AD304085",
+		"paymentDate" : "2017-10-24T04:00:00Z",
+		"amount" : 36798.88
+	},
+	{
+		"customerNumber" : 299,
+		"checkNumber" : "NR157385",
+		"paymentDate" : "2018-09-05T04:00:00Z",
+		"amount" : 32260.16
+	},
+	{
+		"customerNumber" : 311,
+		"checkNumber" : "DG336041",
+		"paymentDate" : "2019-02-15T05:00:00Z",
+		"amount" : 46770.52
+	},
+	{
+		"customerNumber" : 311,
+		"checkNumber" : "FA728475",
+		"paymentDate" : "2017-10-06T04:00:00Z",
+		"amount" : 32723.04
+	},
+	{
+		"customerNumber" : 311,
+		"checkNumber" : "NQ966143",
+		"paymentDate" : "2018-04-25T04:00:00Z",
+		"amount" : 16212.59
+	},
+	{
+		"customerNumber" : 314,
+		"checkNumber" : "LQ244073",
+		"paymentDate" : "2018-08-09T04:00:00Z",
+		"amount" : 45352.47
+	},
+	{
+		"customerNumber" : 314,
+		"checkNumber" : "MD809704",
+		"paymentDate" : "2018-03-03T05:00:00Z",
+		"amount" : 16901.38
+	},
+	{
+		"customerNumber" : 319,
+		"checkNumber" : "HL685576",
+		"paymentDate" : "2018-11-06T05:00:00Z",
+		"amount" : 42339.76
+	},
+	{
+		"customerNumber" : 319,
+		"checkNumber" : "OM548174",
+		"paymentDate" : "2017-12-07T05:00:00Z",
+		"amount" : 36092.40
+	},
+	{
+		"customerNumber" : 320,
+		"checkNumber" : "GJ597719",
+		"paymentDate" : "2019-01-18T05:00:00Z",
+		"amount" : 8307.28
+	},
+	{
+		"customerNumber" : 320,
+		"checkNumber" : "HO576374",
+		"paymentDate" : "2017-08-20T04:00:00Z",
+		"amount" : 41016.75
+	},
+	{
+		"customerNumber" : 320,
+		"checkNumber" : "MU817160",
+		"paymentDate" : "2017-11-24T05:00:00Z",
+		"amount" : 52548.49
+	},
+	{
+		"customerNumber" : 321,
+		"checkNumber" : "DJ15149",
+		"paymentDate" : "2017-11-03T05:00:00Z",
+		"amount" : 85559.12
+	},
+	{
+		"customerNumber" : 321,
+		"checkNumber" : "LA556321",
+		"paymentDate" : "2019-03-15T05:00:00Z",
+		"amount" : 46781.66
+	},
+	{
+		"customerNumber" : 323,
+		"checkNumber" : "AL493079",
+		"paymentDate" : "2019-05-23T04:00:00Z",
+		"amount" : 75020.13
+	},
+	{
+		"customerNumber" : 323,
+		"checkNumber" : "ES347491",
+		"paymentDate" : "2018-06-24T04:00:00Z",
+		"amount" : 37281.36
+	},
+	{
+		"customerNumber" : 323,
+		"checkNumber" : "HG738664",
+		"paymentDate" : "2017-07-05T04:00:00Z",
+		"amount" : 2880.00
+	},
+	{
+		"customerNumber" : 323,
+		"checkNumber" : "PQ803830",
+		"paymentDate" : "2018-12-24T05:00:00Z",
+		"amount" : 39440.59
+	},
+	{
+		"customerNumber" : 324,
+		"checkNumber" : "DQ409197",
+		"paymentDate" : "2018-12-13T05:00:00Z",
+		"amount" : 13671.82
+	},
+	{
+		"customerNumber" : 324,
+		"checkNumber" : "FP443161",
+		"paymentDate" : "2017-07-07T04:00:00Z",
+		"amount" : 29429.14
+	},
+	{
+		"customerNumber" : 324,
+		"checkNumber" : "HB150714",
+		"paymentDate" : "2017-11-23T05:00:00Z",
+		"amount" : 37455.77
+	},
+	{
+		"customerNumber" : 328,
+		"checkNumber" : "EN930356",
+		"paymentDate" : "2018-04-16T04:00:00Z",
+		"amount" : 7178.66
+	},
+	{
+		"customerNumber" : 328,
+		"checkNumber" : "NR631421",
+		"paymentDate" : "2018-05-30T04:00:00Z",
+		"amount" : 31102.85
+	},
+	{
+		"customerNumber" : 333,
+		"checkNumber" : "HL209210",
+		"paymentDate" : "2017-11-15T05:00:00Z",
+		"amount" : 23936.53
+	},
+	{
+		"customerNumber" : 333,
+		"checkNumber" : "JK479662",
+		"paymentDate" : "2017-10-17T04:00:00Z",
+		"amount" : 9821.32
+	},
+	{
+		"customerNumber" : 333,
+		"checkNumber" : "NF959653",
+		"paymentDate" : "2019-03-01T05:00:00Z",
+		"amount" : 21432.31
+	},
+	{
+		"customerNumber" : 334,
+		"checkNumber" : "CS435306",
+		"paymentDate" : "2019-01-27T05:00:00Z",
+		"amount" : 45785.34
+	},
+	{
+		"customerNumber" : 334,
+		"checkNumber" : "HH517378",
+		"paymentDate" : "2017-08-16T04:00:00Z",
+		"amount" : 29716.86
+	},
+	{
+		"customerNumber" : 334,
+		"checkNumber" : "LF737277",
+		"paymentDate" : "2018-05-22T04:00:00Z",
+		"amount" : 28394.54
+	},
+	{
+		"customerNumber" : 339,
+		"checkNumber" : "AP286625",
+		"paymentDate" : "2018-10-24T04:00:00Z",
+		"amount" : 23333.06
+	},
+	{
+		"customerNumber" : 339,
+		"checkNumber" : "DA98827",
+		"paymentDate" : "2017-11-28T05:00:00Z",
+		"amount" : 34606.28
+	},
+	{
+		"customerNumber" : 344,
+		"checkNumber" : "AF246722",
+		"paymentDate" : "2017-11-24T05:00:00Z",
+		"amount" : 31428.21
+	},
+	{
+		"customerNumber" : 344,
+		"checkNumber" : "NJ906924",
+		"paymentDate" : "2018-04-02T05:00:00Z",
+		"amount" : 15322.93
+	},
+	{
+		"customerNumber" : 347,
+		"checkNumber" : "DG700707",
+		"paymentDate" : "2018-01-18T05:00:00Z",
+		"amount" : 21053.69
+	},
+	{
+		"customerNumber" : 347,
+		"checkNumber" : "LG808674",
+		"paymentDate" : "2017-10-24T04:00:00Z",
+		"amount" : 20452.50
+	},
+	{
+		"customerNumber" : 350,
+		"checkNumber" : "BQ602907",
+		"paymentDate" : "2018-12-11T05:00:00Z",
+		"amount" : 18888.31
+	},
+	{
+		"customerNumber" : 350,
+		"checkNumber" : "CI471510",
+		"paymentDate" : "2017-05-25T04:00:00Z",
+		"amount" : 50824.66
+	},
+	{
+		"customerNumber" : 350,
+		"checkNumber" : "OB648482",
+		"paymentDate" : "2019-01-29T05:00:00Z",
+		"amount" : 1834.56
+	},
+	{
+		"customerNumber" : 353,
+		"checkNumber" : "CO351193",
+		"paymentDate" : "2019-01-10T05:00:00Z",
+		"amount" : 49705.52
+	},
+	{
+		"customerNumber" : 353,
+		"checkNumber" : "ED878227",
+		"paymentDate" : "2017-07-21T04:00:00Z",
+		"amount" : 13920.26
+	},
+	{
+		"customerNumber" : 353,
+		"checkNumber" : "GT878649",
+		"paymentDate" : "2017-05-21T04:00:00Z",
+		"amount" : 16700.47
+	},
+	{
+		"customerNumber" : 353,
+		"checkNumber" : "HJ618252",
+		"paymentDate" : "2019-06-09T04:00:00Z",
+		"amount" : 46656.94
+	},
+	{
+		"customerNumber" : 357,
+		"checkNumber" : "AG240323",
+		"paymentDate" : "2017-12-16T05:00:00Z",
+		"amount" : 20220.04
+	},
+	{
+		"customerNumber" : 357,
+		"checkNumber" : "NB291497",
+		"paymentDate" : "2018-05-15T04:00:00Z",
+		"amount" : 36442.34
+	},
+	{
+		"customerNumber" : 362,
+		"checkNumber" : "FP170292",
+		"paymentDate" : "2018-07-11T04:00:00Z",
+		"amount" : 18473.71
+	},
+	{
+		"customerNumber" : 362,
+		"checkNumber" : "OG208861",
+		"paymentDate" : "2018-09-21T04:00:00Z",
+		"amount" : 15059.76
+	},
+	{
+		"customerNumber" : 363,
+		"checkNumber" : "HL575273",
+		"paymentDate" : "2018-11-17T05:00:00Z",
+		"amount" : 50799.69
+	},
+	{
+		"customerNumber" : 363,
+		"checkNumber" : "IS232033",
+		"paymentDate" : "2017-01-16T05:00:00Z",
+		"amount" : 10223.83
+	},
+	{
+		"customerNumber" : 363,
+		"checkNumber" : "PN238558",
+		"paymentDate" : "2017-12-05T05:00:00Z",
+		"amount" : 55425.77
+	},
+	{
+		"customerNumber" : 379,
+		"checkNumber" : "CA762595",
+		"paymentDate" : "2019-02-12T05:00:00Z",
+		"amount" : 28322.83
+	},
+	{
+		"customerNumber" : 379,
+		"checkNumber" : "FR499138",
+		"paymentDate" : "2017-09-16T04:00:00Z",
+		"amount" : 32680.31
+	},
+	{
+		"customerNumber" : 379,
+		"checkNumber" : "GB890854",
+		"paymentDate" : "2018-08-02T04:00:00Z",
+		"amount" : 12530.51
+	},
+	{
+		"customerNumber" : 381,
+		"checkNumber" : "BC726082",
+		"paymentDate" : "2018-12-03T05:00:00Z",
+		"amount" : 12081.52
+	},
+	{
+		"customerNumber" : 381,
+		"checkNumber" : "CC475233",
+		"paymentDate" : "2017-04-19T04:00:00Z",
+		"amount" : 1627.56
+	},
+	{
+		"customerNumber" : 381,
+		"checkNumber" : "GB117430",
+		"paymentDate" : "2019-02-03T05:00:00Z",
+		"amount" : 14379.90
+	},
+	{
+		"customerNumber" : 381,
+		"checkNumber" : "MS154481",
+		"paymentDate" : "2017-08-22T04:00:00Z",
+		"amount" : 1128.20
+	},
+	{
+		"customerNumber" : 382,
+		"checkNumber" : "CC871084",
+		"paymentDate" : "2017-05-12T04:00:00Z",
+		"amount" : 35826.33
+	},
+	{
+		"customerNumber" : 382,
+		"checkNumber" : "CT821147",
+		"paymentDate" : "2018-08-01T04:00:00Z",
+		"amount" : 6419.84
+	},
+	{
+		"customerNumber" : 382,
+		"checkNumber" : "PH29054",
+		"paymentDate" : "2018-11-27T05:00:00Z",
+		"amount" : 42813.83
+	},
+	{
+		"customerNumber" : 385,
+		"checkNumber" : "BN347084",
+		"paymentDate" : "2017-12-02T05:00:00Z",
+		"amount" : 20644.24
+	},
+	{
+		"customerNumber" : 385,
+		"checkNumber" : "CP804873",
+		"paymentDate" : "2018-11-19T05:00:00Z",
+		"amount" : 15822.84
+	},
+	{
+		"customerNumber" : 385,
+		"checkNumber" : "EK785462",
+		"paymentDate" : "2017-03-09T05:00:00Z",
+		"amount" : 51001.22
+	},
+	{
+		"customerNumber" : 386,
+		"checkNumber" : "DO106109",
+		"paymentDate" : "2017-11-18T05:00:00Z",
+		"amount" : 38524.29
+	},
+	{
+		"customerNumber" : 386,
+		"checkNumber" : "HG438769",
+		"paymentDate" : "2018-07-18T04:00:00Z",
+		"amount" : 51619.02
+	},
+	{
+		"customerNumber" : 398,
+		"checkNumber" : "AJ478695",
+		"paymentDate" : "2019-02-14T05:00:00Z",
+		"amount" : 33967.73
+	},
+	{
+		"customerNumber" : 398,
+		"checkNumber" : "DO787644",
+		"paymentDate" : "2018-06-21T04:00:00Z",
+		"amount" : 22037.91
+	},
+	{
+		"customerNumber" : 398,
+		"checkNumber" : "JPMR4544",
+		"paymentDate" : "2019-05-18T04:00:00Z",
+		"amount" : 615.45
+	},
+	{
+		"customerNumber" : 398,
+		"checkNumber" : "KB54275",
+		"paymentDate" : "2018-11-29T05:00:00Z",
+		"amount" : 48927.64
+	},
+	{
+		"customerNumber" : 406,
+		"checkNumber" : "BJMPR4545",
+		"paymentDate" : "2019-04-23T04:00:00Z",
+		"amount" : 12190.85
+	},
+	{
+		"customerNumber" : 406,
+		"checkNumber" : "HJ217687",
+		"paymentDate" : "2018-01-28T05:00:00Z",
+		"amount" : 49165.16
+	},
+	{
+		"customerNumber" : 406,
+		"checkNumber" : "NA197101",
+		"paymentDate" : "2018-06-17T04:00:00Z",
+		"amount" : 25080.96
+	},
+	{
+		"customerNumber" : 412,
+		"checkNumber" : "GH197075",
+		"paymentDate" : "2018-07-25T04:00:00Z",
+		"amount" : 35034.57
+	},
+	{
+		"customerNumber" : 412,
+		"checkNumber" : "PJ434867",
+		"paymentDate" : "2018-04-14T04:00:00Z",
+		"amount" : 31670.37
+	},
+	{
+		"customerNumber" : 415,
+		"checkNumber" : "ER54537",
+		"paymentDate" : "2018-09-28T04:00:00Z",
+		"amount" : 31310.09
+	},
+	{
+		"customerNumber" : 424,
+		"checkNumber" : "KF480160",
+		"paymentDate" : "2018-12-07T05:00:00Z",
+		"amount" : 25505.98
+	},
+	{
+		"customerNumber" : 424,
+		"checkNumber" : "LM271923",
+		"paymentDate" : "2017-04-16T04:00:00Z",
+		"amount" : 21665.98
+	},
+	{
+		"customerNumber" : 424,
+		"checkNumber" : "OA595449",
+		"paymentDate" : "2017-10-31T05:00:00Z",
+		"amount" : 22042.37
+	},
+	{
+		"customerNumber" : 447,
+		"checkNumber" : "AO757239",
+		"paymentDate" : "2017-09-15T04:00:00Z",
+		"amount" : 6631.36
+	},
+	{
+		"customerNumber" : 447,
+		"checkNumber" : "ER615123",
+		"paymentDate" : "2017-06-25T04:00:00Z",
+		"amount" : 17032.29
+	},
+	{
+		"customerNumber" : 447,
+		"checkNumber" : "OU516561",
+		"paymentDate" : "2018-12-17T05:00:00Z",
+		"amount" : 26304.13
+	},
+	{
+		"customerNumber" : 448,
+		"checkNumber" : "FS299615",
+		"paymentDate" : "2019-04-18T04:00:00Z",
+		"amount" : 27966.54
+	},
+	{
+		"customerNumber" : 448,
+		"checkNumber" : "KR822727",
+		"paymentDate" : "2018-09-30T04:00:00Z",
+		"amount" : 48809.90
+	},
+	{
+		"customerNumber" : 450,
+		"checkNumber" : "EF485824",
+		"paymentDate" : "2018-06-21T04:00:00Z",
+		"amount" : 59551.38
+	},
+	{
+		"customerNumber" : 452,
+		"checkNumber" : "ED473873",
+		"paymentDate" : "2017-11-15T05:00:00Z",
+		"amount" : 27121.90
+	},
+	{
+		"customerNumber" : 452,
+		"checkNumber" : "FN640986",
+		"paymentDate" : "2017-11-20T05:00:00Z",
+		"amount" : 15130.97
+	},
+	{
+		"customerNumber" : 452,
+		"checkNumber" : "HG635467",
+		"paymentDate" : "2019-05-03T04:00:00Z",
+		"amount" : 8807.12
+	},
+	{
+		"customerNumber" : 455,
+		"checkNumber" : "HA777606",
+		"paymentDate" : "2017-12-05T05:00:00Z",
+		"amount" : 38139.18
+	},
+	{
+		"customerNumber" : 455,
+		"checkNumber" : "IR662429",
+		"paymentDate" : "2018-05-12T04:00:00Z",
+		"amount" : 32239.47
+	},
+	{
+		"customerNumber" : 456,
+		"checkNumber" : "GJ715659",
+		"paymentDate" : "2018-11-13T05:00:00Z",
+		"amount" : 27550.51
+	},
+	{
+		"customerNumber" : 456,
+		"checkNumber" : "MO743231",
+		"paymentDate" : "2018-04-30T04:00:00Z",
+		"amount" : 1679.92
+	},
+	{
+		"customerNumber" : 458,
+		"checkNumber" : "DD995006",
+		"paymentDate" : "2018-11-15T05:00:00Z",
+		"amount" : 33145.56
+	},
+	{
+		"customerNumber" : 458,
+		"checkNumber" : "NA377824",
+		"paymentDate" : "2018-02-06T05:00:00Z",
+		"amount" : 22162.61
+	},
+	{
+		"customerNumber" : 458,
+		"checkNumber" : "OO606861",
+		"paymentDate" : "2017-06-13T04:00:00Z",
+		"amount" : 57131.92
+	},
+	{
+		"customerNumber" : 462,
+		"checkNumber" : "ED203908",
+		"paymentDate" : "2019-04-15T04:00:00Z",
+		"amount" : 30293.77
+	},
+	{
+		"customerNumber" : 462,
+		"checkNumber" : "GC60330",
+		"paymentDate" : "2017-11-08T05:00:00Z",
+		"amount" : 9977.85
+	},
+	{
+		"customerNumber" : 462,
+		"checkNumber" : "PE176846",
+		"paymentDate" : "2018-11-27T05:00:00Z",
+		"amount" : 48355.87
+	},
+	{
+		"customerNumber" : 471,
+		"checkNumber" : "AB661578",
+		"paymentDate" : "2018-07-28T04:00:00Z",
+		"amount" : 9415.13
+	},
+	{
+		"customerNumber" : 471,
+		"checkNumber" : "CO645196",
+		"paymentDate" : "2017-12-10T05:00:00Z",
+		"amount" : 35505.63
+	},
+	{
+		"customerNumber" : 473,
+		"checkNumber" : "LL427009",
+		"paymentDate" : "2018-02-17T05:00:00Z",
+		"amount" : 7612.06
+	},
+	{
+		"customerNumber" : 473,
+		"checkNumber" : "PC688499",
+		"paymentDate" : "2017-10-27T05:00:00Z",
+		"amount" : 17746.26
+	},
+	{
+		"customerNumber" : 475,
+		"checkNumber" : "JP113227",
+		"paymentDate" : "2017-12-09T05:00:00Z",
+		"amount" : 7678.25
+	},
+	{
+		"customerNumber" : 475,
+		"checkNumber" : "PB951268",
+		"paymentDate" : "2018-02-13T05:00:00Z",
+		"amount" : 36070.47
+	},
+	{
+		"customerNumber" : 484,
+		"checkNumber" : "GK294076",
+		"paymentDate" : "2018-10-26T04:00:00Z",
+		"amount" : 3474.66
+	},
+	{
+		"customerNumber" : 484,
+		"checkNumber" : "JH546765",
+		"paymentDate" : "2017-11-29T05:00:00Z",
+		"amount" : 47513.19
+	},
+	{
+		"customerNumber" : 486,
+		"checkNumber" : "BL66528",
+		"paymentDate" : "2018-04-14T04:00:00Z",
+		"amount" : 5899.38
+	},
+	{
+		"customerNumber" : 486,
+		"checkNumber" : "HS86661",
+		"paymentDate" : "2018-11-23T05:00:00Z",
+		"amount" : 45994.07
+	},
+	{
+		"customerNumber" : 486,
+		"checkNumber" : "JB117768",
+		"paymentDate" : "2017-03-20T05:00:00Z",
+		"amount" : 25833.14
+	},
+	{
+		"customerNumber" : 487,
+		"checkNumber" : "AH612904",
+		"paymentDate" : "2017-09-28T04:00:00Z",
+		"amount" : 29997.09
+	},
+	{
+		"customerNumber" : 487,
+		"checkNumber" : "PT550181",
+		"paymentDate" : "2018-02-29T05:00:00Z",
+		"amount" : 12573.28
+	},
+	{
+		"customerNumber" : 489,
+		"checkNumber" : "OC773849",
+		"paymentDate" : "2017-12-04T05:00:00Z",
+		"amount" : 22275.73
+	},
+	{
+		"customerNumber" : 489,
+		"checkNumber" : "PO860906",
+		"paymentDate" : "2018-01-31T05:00:00Z",
+		"amount" : 7310.42
+	},
+	{
+		"customerNumber" : 495,
+		"checkNumber" : "BH167026",
+		"paymentDate" : "2017-12-26T05:00:00Z",
+		"amount" : 59265.14
+	},
+	{
+		"customerNumber" : 495,
+		"checkNumber" : "FN155234",
+		"paymentDate" : "2018-05-14T04:00:00Z",
+		"amount" : 6276.60
+	},
+	{
+		"customerNumber" : 496,
+		"checkNumber" : "EU531600",
+		"paymentDate" : "2019-05-25T04:00:00Z",
+		"amount" : 30253.75
+	},
+	{
+		"customerNumber" : 496,
+		"checkNumber" : "MB342426",
+		"paymentDate" : "2017-07-16T04:00:00Z",
+		"amount" : 32077.44
+	},
+	{
+		"customerNumber" : 496,
+		"checkNumber" : "MN89921",
+		"paymentDate" : "2018-12-31T05:00:00Z",
+		"amount" : 52166.00
+	}
+]}

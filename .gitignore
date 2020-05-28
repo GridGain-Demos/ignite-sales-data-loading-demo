@@ -1,0 +1,13 @@
+# eclipse project file
+.settings/
+.classpath
+.project
+
+# Maven
+target/
+
+# Binary / Jar files
+jdbc-drivers
+
+# GridGain Cluster secret properties
+sales.properties

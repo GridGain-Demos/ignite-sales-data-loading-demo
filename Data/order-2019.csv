@@ -1,0 +1,327 @@
+"orderNumber","orderDate","requiredDate","shippedDate","status","comments","customerNumber"
+10100,2017-01-06,2017-01-13,2017-01-10,Shipped,,363
+10101,2017-01-09,2017-01-18,2017-01-11,Shipped,Check on availability.,128
+10102,2017-01-10,2017-01-18,2017-01-14,Shipped,,181
+10103,2017-01-29,2017-02-07,2017-02-02,Shipped,,121
+10104,2017-01-31,2017-02-09,2017-02-01,Shipped,,141
+10105,2017-02-11,2017-02-21,2017-02-12,Shipped,,145
+10106,2017-02-17,2017-02-24,2017-02-21,Shipped,,278
+10107,2017-02-24,2017-03-03,2017-02-26,Shipped,Difficult to negotiate with customer. We need more marketing materials,131
+10108,2017-03-03,2017-03-12,2017-03-08,Shipped,,385
+10109,2017-03-10,2017-03-19,2017-03-11,Shipped,Customer requested that FedEx Ground is used for this shipping,486
+10110,2017-03-18,2017-03-24,2017-03-20,Shipped,,187
+10111,2017-03-25,2017-03-31,2017-03-30,Shipped,,129
+10112,2017-03-24,2017-04-03,2017-03-29,Shipped,"Customer requested that ad materials (such as posters, pamphlets) be included in the shippment",144
+10113,2017-03-26,2017-04-02,2017-03-27,Shipped,,124
+10114,2017-04-01,2017-04-07,2017-04-02,Shipped,,172
+10115,2017-04-04,2017-04-12,2017-04-07,Shipped,,424
+10116,2017-04-11,2017-04-19,2017-04-13,Shipped,,381
+10117,2017-04-16,2017-04-24,2017-04-17,Shipped,,148
+10118,2017-04-21,2017-04-29,2017-04-26,Shipped,Customer has worked with some of our vendors in the past and is aware of their MSRP,216
+10119,2017-04-28,2017-05-05,2017-05-02,Shipped,,382
+10120,2017-04-29,2017-05-08,2017-05-01,Shipped,,114
+10121,2017-05-07,2017-05-13,2017-05-13,Shipped,,353
+10122,2017-05-08,2017-05-16,2017-05-13,Shipped,,350
+10123,2017-05-20,2017-05-29,2017-05-22,Shipped,,103
+10124,2017-05-21,2017-05-29,2017-05-25,Shipped,Customer very concerned about the exact color of the models. There is high risk that he may dispute the order because there is a slight color mismatch,112
+10125,2017-05-21,2017-05-27,2017-05-24,Shipped,,114
+10126,2017-05-28,2017-06-07,2017-06-02,Shipped,,458
+10127,2017-06-03,2017-06-09,2017-06-06,Shipped,Customer requested special shippment. The instructions were passed along to the warehouse,151
+10128,2017-06-06,2017-06-12,2017-06-11,Shipped,,141
+10129,2017-06-12,2017-06-18,2017-06-14,Shipped,,324
+10130,2017-06-16,2017-06-24,2017-06-21,Shipped,,198
+10131,2017-06-16,2017-06-25,2017-06-21,Shipped,,447
+10132,2017-06-25,2017-07-01,2017-06-28,Shipped,,323
+10133,2017-06-27,2017-07-04,2017-07-03,Shipped,,141
+10134,2017-07-01,2017-07-10,2017-07-05,Shipped,,250
+10135,2017-07-02,2017-07-12,2017-07-03,Shipped,,124
+10136,2017-07-04,2017-07-14,2017-07-06,Shipped,Customer is interested in buying more Ferrari models,242
+10137,2017-07-10,2017-07-20,2017-07-14,Shipped,,353
+10138,2017-07-07,2017-07-16,2017-07-13,Shipped,,496
+10139,2017-07-16,2017-07-23,2017-07-21,Shipped,,282
+10140,2017-07-24,2017-08-02,2017-07-30,Shipped,,161
+10141,2017-08-01,2017-08-09,2017-08-04,Shipped,,334
+10142,2017-08-08,2017-08-16,2017-08-13,Shipped,,124
+10143,2017-08-10,2017-08-18,2017-08-12,Shipped,Can we deliver the new Ford Mustang models by end-of-quarter?,320
+10144,2017-08-13,2017-08-21,2017-08-14,Shipped,,381
+10145,2017-08-25,2017-09-02,2017-08-31,Shipped,,205
+10146,2017-09-03,2017-09-13,2017-09-06,Shipped,,447
+10147,2017-09-05,2017-09-12,2017-09-09,Shipped,,379
+10148,2017-09-11,2017-09-21,2017-09-15,Shipped,They want to reevaluate their terms agreement with Finance.,276
+10149,2017-09-12,2017-09-18,2017-09-17,Shipped,,487
+10150,2017-09-19,2017-09-27,2017-09-21,Shipped,They want to reevaluate their terms agreement with Finance.,148
+10151,2017-09-21,2017-09-30,2017-09-24,Shipped,,311
+10152,2017-09-25,2017-10-03,2017-10-01,Shipped,,333
+10153,2017-09-28,2017-10-05,2017-10-03,Shipped,,141
+10154,2017-10-02,2017-10-12,2017-10-08,Shipped,,219
+10155,2017-10-06,2017-10-13,2017-10-07,Shipped,,186
+10156,2017-10-08,2017-10-17,2017-10-11,Shipped,,141
+10157,2017-10-09,2017-10-15,2017-10-14,Shipped,,473
+10158,2017-10-10,2017-10-18,2017-10-15,Shipped,,121
+10159,2017-10-10,2017-10-19,2017-10-16,Shipped,,321
+10160,2017-10-11,2017-10-17,2017-10-17,Shipped,,347
+10161,2017-10-17,2017-10-25,2017-10-20,Shipped,,227
+10162,2017-10-18,2017-10-26,2017-10-19,Shipped,,321
+10163,2017-10-20,2017-10-27,2017-10-24,Shipped,,424
+10164,2017-10-21,2017-10-30,2017-10-23,Resolved,"This order was disputed, but resolved on 11/1/2017; Customer doesn't like the colors and precision of the models.",452
+10165,2017-10-22,2017-10-31,2017-12-26,Shipped,This order was on hold because customers's credit limit had been exceeded. Order will ship when payment is received,148
+10166,2017-10-21,2017-10-30,2017-10-27,Shipped,,462
+10167,2017-10-23,2017-10-30,,Cancelled,Customer called to cancel. The warehouse was notified in time and the order didn't ship. They have a new VP of Sales and are shifting their sales model. Our VP of Sales should contact them.,448
+10168,2017-10-28,2017-11-03,2017-11-01,Shipped,,161
+10169,2017-11-04,2017-11-14,2017-11-09,Shipped,,276
+10170,2017-11-04,2017-11-12,2017-11-07,Shipped,,452
+10171,2017-11-05,2017-11-13,2017-11-07,Shipped,,233
+10172,2017-11-05,2017-11-14,2017-11-11,Shipped,,175
+10173,2017-11-05,2017-11-15,2017-11-09,Shipped,"Cautious optimism. We have happy customers here, if we can keep them well stocked.  I need all the information I can get on the planned shippments of Porches",278
+10174,2017-11-06,2017-11-15,2017-11-10,Shipped,,333
+10175,2017-11-06,2017-11-14,2017-11-09,Shipped,,324
+10176,2017-11-06,2017-11-15,2017-11-12,Shipped,,386
+10177,2017-11-07,2017-11-17,2017-11-12,Shipped,,344
+10178,2017-11-08,2017-11-16,2017-11-10,Shipped,Custom shipping instructions sent to warehouse,242
+10179,2017-11-11,2017-11-17,2017-11-13,Cancelled,Customer cancelled due to urgent budgeting issues. Must be cautious when dealing with them in the future. Since order shipped already we must discuss who would cover the shipping charges.,496
+10180,2017-11-11,2017-11-19,2017-11-14,Shipped,,171
+10181,2017-11-12,2017-11-19,2017-11-15,Shipped,,167
+10182,2017-11-12,2017-11-21,2017-11-18,Shipped,,124
+10183,2017-11-13,2017-11-22,2017-11-15,Shipped,We need to keep in close contact with their Marketing VP. He is the decision maker for all their purchases.,339
+10184,2017-11-14,2017-11-22,2017-11-20,Shipped,,484
+10185,2017-11-14,2017-11-21,2017-11-20,Shipped,,320
+10186,2017-11-14,2017-11-20,2017-11-18,Shipped,They want to reevaluate their terms agreement with the VP of Sales,489
+10187,2017-11-15,2017-11-24,2017-11-16,Shipped,,211
+10188,2017-11-18,2017-11-26,2017-11-24,Shipped,,167
+10189,2017-11-18,2017-11-25,2017-11-24,Shipped,They want to reevaluate their terms agreement with Finance.,205
+10190,2017-11-19,2017-11-29,2017-11-20,Shipped,,141
+10191,2017-11-20,2017-11-30,2017-11-24,Shipped,We must be cautions with this customer. Their VP of Sales resigned. Company may be heading down.,259
+10192,2017-11-20,2017-11-29,2017-11-25,Shipped,,363
+10193,2017-11-21,2017-11-28,2017-11-27,Shipped,,471
+10194,2017-11-25,2017-12-02,2017-11-26,Shipped,,146
+10195,2017-11-25,2017-12-01,2017-11-28,Shipped,,319
+10196,2017-11-26,2017-12-03,2017-12-01,Shipped,,455
+10197,2017-11-26,2017-12-02,2017-12-01,Shipped,Customer inquired about remote controlled models and gold models.,216
+10198,2017-11-27,2017-12-06,2017-12-03,Shipped,,385
+10199,2017-12-01,2017-12-10,2017-12-06,Shipped,,475
+10200,2017-12-01,2017-12-09,2017-12-06,Shipped,,211
+10201,2017-12-01,2017-12-11,2017-12-02,Shipped,,129
+10202,2017-12-02,2017-12-09,2017-12-06,Shipped,,357
+10203,2017-12-02,2017-12-11,2017-12-07,Shipped,,141
+10204,2017-12-02,2017-12-10,2017-12-04,Shipped,,151
+10205,2017-12-03,2017-12-09,2017-12-07,Shipped, I need all the information I can get on our competitors.,141
+10206,2017-12-05,2017-12-13,2017-12-08,Shipped,Can we renegotiate this one?,202
+10207,2017-12-09,2017-12-17,2017-12-11,Shipped,Check on availability.,495
+10208,2018-01-02,2018-01-11,2018-01-04,Shipped,,146
+10209,2018-01-09,2018-01-15,2018-01-12,Shipped,,347
+10210,2018-01-12,2018-01-22,2018-01-20,Shipped,,177
+10211,2018-01-15,2018-01-25,2018-01-18,Shipped,,406
+10212,2018-01-16,2018-01-24,2018-01-18,Shipped,,141
+10213,2018-01-22,2018-01-28,2018-01-27,Shipped,Difficult to negotiate with customer. We need more marketing materials,489
+10214,2018-01-26,2018-02-04,2018-01-29,Shipped,,458
+10215,2018-01-29,2018-02-08,2018-02-01,Shipped,Customer requested that FedEx Ground is used for this shipping,475
+10216,2018-02-02,2018-02-10,2018-02-04,Shipped,,256
+10217,2018-02-04,2018-02-14,2018-02-06,Shipped,,166
+10218,2018-02-09,2018-02-16,2018-02-11,Shipped,"Customer requested that ad materials (such as posters, pamphlets) be included in the shippment",473
+10219,2018-02-10,2018-02-17,2018-02-12,Shipped,,487
+10220,2018-02-12,2018-02-19,2018-02-16,Shipped,,189
+10221,2018-02-18,2018-02-26,2018-02-19,Shipped,,314
+10222,2018-02-19,2018-02-27,2018-02-20,Shipped,,239
+10223,2018-02-20,2018-02-29,2018-02-24,Shipped,,114
+10224,2018-02-21,2018-03-02,2018-02-26,Shipped,Customer has worked with some of our vendors in the past and is aware of their MSRP,171
+10225,2018-02-22,2018-03-01,2018-02-24,Shipped,,298
+10226,2018-02-26,2018-03-06,2018-03-02,Shipped,,239
+10227,2018-03-02,2018-03-12,2018-03-08,Shipped,,146
+10228,2018-03-10,2018-03-18,2018-03-13,Shipped,,173
+10229,2018-03-11,2018-03-20,2018-03-12,Shipped,,124
+10230,2018-03-15,2018-03-24,2018-03-20,Shipped,Customer very concerned about the exact color of the models. There is high risk that he may dispute the order because there is a slight color mismatch,128
+10231,2018-03-19,2018-03-26,2018-03-25,Shipped,,344
+10232,2018-03-20,2018-03-30,2018-03-25,Shipped,,240
+10233,2018-03-29,2018-04-04,2018-04-02,Shipped,Customer requested special shippment. The instructions were passed along to the warehouse,328
+10234,2018-03-30,2018-04-05,2018-04-02,Shipped,,412
+10235,2018-04-02,2018-04-12,2018-04-06,Shipped,,260
+10236,2018-04-03,2018-04-11,2018-04-08,Shipped,,486
+10237,2018-04-05,2018-04-12,2018-04-10,Shipped,,181
+10238,2018-04-09,2018-04-16,2018-04-10,Shipped,,145
+10239,2018-04-12,2018-04-21,2018-04-17,Shipped,,311
+10240,2018-04-13,2018-04-20,2018-04-20,Shipped,,177
+10241,2018-04-13,2018-04-20,2018-04-19,Shipped,,209
+10242,2018-04-20,2018-04-28,2018-04-25,Shipped,Customer is interested in buying more Ferrari models,456
+10243,2018-04-26,2018-05-03,2018-04-28,Shipped,,495
+10244,2018-04-29,2018-05-09,2018-05-04,Shipped,,141
+10245,2018-05-04,2018-05-12,2018-05-09,Shipped,,455
+10246,2018-05-05,2018-05-13,2018-05-06,Shipped,,141
+10247,2018-05-05,2018-05-11,2018-05-08,Shipped,,334
+10248,2018-05-07,2018-05-14,,Cancelled,Order was mistakenly placed. The warehouse noticed the lack of documentation.,131
+10249,2018-05-08,2018-05-17,2018-05-11,Shipped,Can we deliver the new Ford Mustang models by end-of-quarter?,173
+10250,2018-05-11,2018-05-19,2018-05-15,Shipped,,450
+10251,2018-05-18,2018-05-24,2018-05-24,Shipped,,328
+10252,2018-05-26,2018-06-04,2018-05-29,Shipped,,406
+10253,2018-06-01,2018-06-09,2018-06-02,Cancelled,"Customer disputed the order and we agreed to cancel it. We must be more cautions with this customer going forward, since they are very hard to please. We must cover the shipping fees.",201
+10254,2018-06-03,2018-06-13,2018-06-04,Shipped,Customer requested that DHL is used for this shipping,323
+10255,2018-06-04,2018-06-12,2018-06-09,Shipped,,209
+10256,2018-06-08,2018-06-16,2018-06-10,Shipped,,145
+10257,2018-06-14,2018-06-24,2018-06-15,Shipped,,450
+10258,2018-06-15,2018-06-25,2018-06-23,Shipped,,398
+10259,2018-06-15,2018-06-22,2018-06-17,Shipped,,166
+10260,2018-06-16,2018-06-22,,Cancelled,Customer heard complaints from their customers and called to cancel this order. Will notify the Sales Manager.,357
+10261,2018-06-17,2018-06-25,2018-06-22,Shipped,,233
+10262,2018-06-24,2018-07-01,,Cancelled,This customer found a better offer from one of our competitors. Will call back to renegotiate.,141
+10263,2018-06-28,2018-07-04,2018-07-02,Shipped,,175
+10264,2018-06-30,2018-07-06,2018-07-01,Shipped,Customer will send a truck to our local warehouse on 7/1/2018,362
+10265,2018-07-02,2018-07-09,2018-07-07,Shipped,,471
+10266,2018-07-06,2018-07-14,2018-07-10,Shipped,,386
+10267,2018-07-07,2018-07-17,2018-07-09,Shipped,,151
+10268,2018-07-12,2018-07-18,2018-07-14,Shipped,,412
+10269,2018-07-16,2018-07-22,2018-07-18,Shipped,,382
+10270,2018-07-19,2018-07-27,2018-07-24,Shipped,Can we renegotiate this one?,282
+10271,2018-07-20,2018-07-29,2018-07-23,Shipped,,124
+10272,2018-07-20,2018-07-26,2018-07-22,Shipped,,157
+10273,2018-07-21,2018-07-28,2018-07-22,Shipped,,314
+10274,2018-07-21,2018-07-29,2018-07-22,Shipped,,379
+10275,2018-07-23,2018-08-02,2018-07-29,Shipped,,119
+10276,2018-08-02,2018-08-11,2018-08-08,Shipped,,204
+10277,2018-08-04,2018-08-12,2018-08-05,Shipped,,148
+10278,2018-08-06,2018-08-16,2018-08-09,Shipped,,112
+10279,2018-08-09,2018-08-19,2018-08-15,Shipped,"Cautious optimism. We have happy customers here, if we can keep them well stocked.  I need all the information I can get on the planned shippments of Porches",141
+10280,2018-08-17,2018-08-27,2018-08-19,Shipped,,249
+10281,2018-08-19,2018-08-28,2018-08-23,Shipped,,157
+10282,2018-08-20,2018-08-26,2018-08-22,Shipped,,124
+10283,2018-08-20,2018-08-30,2018-08-23,Shipped,,260
+10284,2018-08-21,2018-08-29,2018-08-26,Shipped,Custom shipping instructions sent to warehouse,299
+10285,2018-08-27,2018-09-04,2018-08-31,Shipped,,286
+10286,2018-08-28,2018-09-06,2018-09-01,Shipped,,172
+10287,2018-08-30,2018-09-06,2018-09-01,Shipped,,298
+10288,2018-09-01,2018-09-11,2018-09-05,Shipped,,166
+10289,2018-09-03,2018-09-13,2018-09-04,Shipped,We need to keep in close contact with their Marketing VP. He is the decision maker for all their purchases.,167
+10290,2018-09-07,2018-09-15,2018-09-13,Shipped,,198
+10291,2018-09-08,2018-09-17,2018-09-14,Shipped,,448
+10292,2018-09-08,2018-09-18,2018-09-11,Shipped,They want to reevaluate their terms agreement with Finance.,131
+10293,2018-09-09,2018-09-18,2018-09-14,Shipped,,249
+10294,2018-09-10,2018-09-17,2018-09-14,Shipped,,204
+10295,2018-09-10,2018-09-17,2018-09-14,Shipped,They want to reevaluate their terms agreement with Finance.,362
+10296,2018-09-15,2018-09-22,2018-09-16,Shipped,,415
+10297,2018-09-16,2018-09-22,2018-09-21,Shipped,We must be cautions with this customer. Their VP of Sales resigned. Company may be heading down.,189
+10298,2018-09-27,2018-10-05,2018-10-01,Shipped,,103
+10299,2018-09-30,2018-10-10,2018-10-01,Shipped,,186
+10300,2017-10-04,2017-10-13,2017-10-09,Shipped,,128
+10301,2017-10-05,2017-10-15,2017-10-08,Shipped,,299
+10302,2017-10-06,2017-10-16,2017-10-07,Shipped,,201
+10303,2018-10-06,2018-10-14,2018-10-09,Shipped,Customer inquired about remote controlled models and gold models.,484
+10304,2018-10-11,2018-10-20,2018-10-17,Shipped,,256
+10305,2018-10-13,2018-10-22,2018-10-15,Shipped,Check on availability.,286
+10306,2018-10-14,2018-10-21,2018-10-17,Shipped,,187
+10307,2018-10-14,2018-10-23,2018-10-20,Shipped,,339
+10308,2018-10-15,2018-10-24,2018-10-20,Shipped,Customer requested that FedEx Ground is used for this shipping,319
+10309,2018-10-15,2018-10-24,2018-10-18,Shipped,,121
+10310,2018-10-16,2018-10-24,2018-10-18,Shipped,,259
+10311,2018-10-16,2018-10-23,2018-10-20,Shipped,Difficult to negotiate with customer. We need more marketing materials,141
+10312,2018-10-21,2018-10-27,2018-10-23,Shipped,,124
+10313,2018-10-22,2018-10-28,2018-10-25,Shipped,Customer requested that FedEx Ground is used for this shipping,202
+10314,2018-10-22,2018-11-01,2018-10-23,Shipped,,227
+10315,2018-10-29,2018-11-08,2018-10-30,Shipped,,119
+10316,2018-11-01,2018-11-09,2018-11-07,Shipped,"Customer requested that ad materials (such as posters, pamphlets) be included in the shippment",240
+10317,2018-11-02,2018-11-12,2018-11-08,Shipped,,161
+10318,2018-11-02,2018-11-09,2018-11-07,Shipped,,157
+10319,2018-11-03,2018-11-11,2018-11-06,Shipped,Customer requested that DHL is used for this shipping,456
+10320,2018-11-03,2018-11-13,2018-11-07,Shipped,,144
+10321,2018-11-04,2018-11-12,2018-11-07,Shipped,,462
+10322,2018-11-04,2018-11-12,2018-11-10,Shipped,Customer has worked with some of our vendors in the past and is aware of their MSRP,363
+10323,2018-11-05,2018-11-12,2018-11-09,Shipped,,128
+10324,2018-11-05,2018-11-11,2018-11-08,Shipped,,181
+10325,2018-11-05,2018-11-13,2018-11-08,Shipped,,121
+10326,2018-11-09,2018-11-16,2018-11-10,Shipped,,144
+10327,2018-11-10,2018-11-19,2018-11-13,Resolved,Order was disputed and resolved on 12/1/04. The Sales Manager was involved. Customer claims the scales of the models don't match what was discussed.,145
+10328,2018-11-12,2018-11-21,2018-11-18,Shipped,Customer very concerned about the exact color of the models. There is high risk that he may dispute the order because there is a slight color mismatch,278
+10329,2018-11-15,2018-11-24,2018-11-16,Shipped,,131
+10330,2018-11-16,2018-11-25,2018-11-21,Shipped,,385
+10331,2018-11-17,2018-11-23,2018-11-23,Shipped,Customer requested special shippment. The instructions were passed along to the warehouse,486
+10332,2018-11-17,2018-11-25,2018-11-18,Shipped,,187
+10333,2018-11-18,2018-11-27,2018-11-20,Shipped,,129
+10334,2018-11-19,2018-11-28,,On Hold,The outstaniding balance for this customer exceeds their credit limit. Order will be shipped when a payment is received.,144
+10335,2018-11-19,2018-11-29,2018-11-23,Shipped,,124
+10336,2018-11-20,2018-11-26,2018-11-24,Shipped,Customer requested that DHL is used for this shipping,172
+10337,2018-11-21,2018-11-30,2018-11-26,Shipped,,424
+10338,2018-11-22,2018-12-02,2018-11-27,Shipped,,381
+10339,2018-11-23,2018-11-30,2018-11-30,Shipped,,398
+10340,2018-11-24,2018-12-01,2018-11-25,Shipped,Customer is interested in buying more Ferrari models,216
+10341,2018-11-24,2018-12-01,2018-11-29,Shipped,,382
+10342,2018-11-24,2018-12-01,2018-11-29,Shipped,,114
+10343,2018-11-24,2018-12-01,2018-11-26,Shipped,,353
+10344,2018-11-25,2018-12-02,2018-11-29,Shipped,,350
+10345,2018-11-25,2018-12-01,2018-11-26,Shipped,,103
+10346,2018-11-29,2018-12-05,2018-11-30,Shipped,,112
+10347,2018-11-29,2018-12-07,2018-11-30,Shipped,Can we deliver the new Ford Mustang models by end-of-quarter?,114
+10348,2018-11-01,2018-11-08,2018-11-05,Shipped,,458
+10349,2018-12-01,2018-12-07,2018-12-03,Shipped,,151
+10350,2018-12-02,2018-12-08,2018-12-05,Shipped,,141
+10351,2018-12-03,2018-12-11,2018-12-07,Shipped,,324
+10352,2018-12-03,2018-12-12,2018-12-09,Shipped,,198
+10353,2018-12-04,2018-12-11,2018-12-05,Shipped,,447
+10354,2018-12-04,2018-12-10,2018-12-05,Shipped,,323
+10355,2018-12-07,2018-12-14,2018-12-13,Shipped,,141
+10356,2018-12-09,2018-12-15,2018-12-12,Shipped,,250
+10357,2018-12-10,2018-12-16,2018-12-14,Shipped,,124
+10358,2018-12-10,2018-12-16,2018-12-16,Shipped,Customer requested that DHL is used for this shipping,141
+10359,2018-12-15,2018-12-23,2018-12-18,Shipped,,353
+10360,2018-12-16,2018-12-22,2018-12-18,Shipped,,496
+10361,2018-12-17,2018-12-24,2018-12-20,Shipped,,282
+10362,2019-01-05,2019-01-16,2019-01-10,Shipped,,161
+10363,2019-01-06,2019-01-12,2019-01-10,Shipped,,334
+10364,2019-01-06,2019-01-17,2019-01-09,Shipped,,350
+10365,2019-01-07,2019-01-18,2019-01-11,Shipped,,320
+10366,2019-01-10,2019-01-19,2019-01-12,Shipped,,381
+10367,2019-01-12,2019-01-21,2019-01-16,Resolved,This order was disputed and resolved on 2/1/2019. Customer claimed that container with shipment was damaged. FedEx's investigation proved this wrong.,205
+10368,2019-01-19,2019-01-27,2019-01-24,Shipped,Can we renegotiate this one?,124
+10369,2019-01-20,2019-01-28,2019-01-24,Shipped,,379
+10370,2019-01-20,2019-02-01,2019-01-25,Shipped,,276
+10371,2019-01-23,2019-02-03,2019-01-25,Shipped,,124
+10372,2019-01-26,2019-02-05,2019-01-28,Shipped,,398
+10373,2019-01-31,2019-02-08,2019-02-06,Shipped,,311
+10374,2019-02-02,2019-02-09,2019-02-03,Shipped,,333
+10375,2019-02-03,2019-02-10,2019-02-06,Shipped,,119
+10376,2019-02-08,2019-02-18,2019-02-13,Shipped,,219
+10377,2019-02-09,2019-02-21,2019-02-12,Shipped,"Cautious optimism. We have happy customers here, if we can keep them well stocked.  I need all the information I can get on the planned shippments of Porches",186
+10378,2019-02-10,2019-02-18,2019-02-11,Shipped,,141
+10379,2019-02-10,2019-02-18,2019-02-11,Shipped,,141
+10380,2019-02-16,2019-02-24,2019-02-18,Shipped,,141
+10381,2019-02-17,2019-02-25,2019-02-18,Shipped,,321
+10382,2019-02-17,2019-02-23,2019-02-18,Shipped,Custom shipping instructions sent to warehouse,124
+10383,2019-02-22,2019-03-02,2019-02-25,Shipped,,141
+10384,2019-02-23,2019-03-06,2019-02-27,Shipped,,321
+10385,2019-02-28,2019-03-09,2019-03-01,Shipped,,124
+10386,2019-03-01,2019-03-09,2019-03-06,Resolved,Disputed then Resolved on 3/15/2019. Customer doesn't like the craftsmaship of the models.,141
+10387,2019-03-02,2019-03-09,2019-03-06,Shipped,We need to keep in close contact with their Marketing VP. He is the decision maker for all their purchases.,148
+10388,2019-03-03,2019-03-11,2019-03-09,Shipped,,462
+10389,2019-03-03,2019-03-09,2019-03-08,Shipped,,448
+10390,2019-03-04,2019-03-11,2019-03-07,Shipped,They want to reevaluate their terms agreement with Finance.,124
+10391,2019-03-09,2019-03-20,2019-03-15,Shipped,,276
+10392,2019-03-10,2019-03-18,2019-03-12,Shipped,,452
+10393,2019-03-11,2019-03-22,2019-03-14,Shipped,They want to reevaluate their terms agreement with Finance.,323
+10394,2019-03-15,2019-03-25,2019-03-19,Shipped,,141
+10395,2019-03-17,2019-03-24,2019-03-23,Shipped,We must be cautions with this customer. Their VP of Sales resigned. Company may be heading down.,250
+10396,2019-03-23,2019-04-02,2019-03-28,Shipped,,124
+10397,2019-03-28,2019-04-09,2019-04-01,Shipped,,242
+10398,2019-03-30,2019-04-09,2019-03-31,Shipped,,353
+10399,2019-04-01,2019-04-12,2019-04-03,Shipped,,496
+10400,2019-04-01,2019-04-11,2019-04-04,Shipped,Customer requested that DHL is used for this shipping,450
+10401,2019-04-03,2019-04-14,,On Hold,Customer credit limit exceeded. Will ship when a payment is received.,328
+10402,2019-04-07,2019-04-14,2019-04-12,Shipped,,406
+10403,2019-04-08,2019-04-18,2019-04-11,Shipped,,201
+10404,2019-04-08,2019-04-14,2019-04-11,Shipped,,323
+10405,2019-04-14,2019-04-24,2019-04-20,Shipped,,209
+10406,2019-04-15,2019-04-25,2019-04-21,Disputed,Customer claims container with shipment was damaged during shipping and some items were missing. I am talking to FedEx about this.,145
+10407,2019-04-22,2019-05-04,,On Hold,Customer credit limit exceeded. Will ship when a payment is received.,450
+10408,2019-04-22,2019-04-29,2019-04-27,Shipped,,398
+10409,2019-04-23,2019-05-05,2019-04-24,Shipped,,166
+10410,2019-04-29,2019-05-10,2019-04-30,Shipped,,357
+10411,2019-05-01,2019-05-08,2019-05-06,Shipped,,233
+10412,2019-05-03,2019-05-13,2019-05-05,Shipped,,141
+10413,2019-05-05,2019-05-14,2019-05-09,Shipped,Customer requested that DHL is used for this shipping,175
+10414,2019-05-06,2019-05-13,,On Hold,Customer credit limit exceeded. Will ship when a payment is received.,362
+10415,2019-05-09,2019-05-20,2019-05-12,Disputed,Customer claims the scales of the models don't match what was discussed. I keep all the paperwork though to prove otherwise,471
+10416,2019-05-10,2019-05-16,2019-05-14,Shipped,,386
+10417,2019-05-13,2019-05-19,2019-05-19,Disputed,Customer doesn't like the colors and precision of the models.,141
+10418,2019-05-16,2019-05-24,2019-05-20,Shipped,,412
+10419,2019-05-17,2019-05-28,2019-05-19,Shipped,,382
+10420,2019-05-29,2019-06-07,,In Process,,282
+10421,2019-05-29,2019-06-06,,In Process,Custom shipping instructions were sent to warehouse,124
+10422,2019-05-30,2019-06-11,,In Process,,157
+10423,2019-05-30,2019-06-05,,In Process,,314
+10424,2019-05-31,2019-06-08,,In Process,,141
+10425,2019-05-31,2019-06-07,,In Process,,119
