@@ -53,87 +53,108 @@ public class SalesCacheLoadOnlyStore<K, V> extends CacheLoadOnlyStoreAdapter<Obj
     /** Empty Constructor. */
     public SalesCacheLoadOnlyStore() {
         System.out.println(">>> SalesCacheLoadOnlyStore (LoadOnly type) null constructor...");
-        //System.out.println(">>> SalesCacheLoadOnlyStore (LoadOnly type) null constructor; default to loading orders (order.csv)...");
-        //this.csvFileName = "/data/sales/order.csv";
+        // System.out.println(">>> SalesCacheLoadOnlyStore (LoadOnly type) null
+        // constructor; default to loading orders (order.csv)...");
+        // this.csvFileName = "/data/sales/order.csv";
     }
 
     public SalesCacheLoadOnlyStore(String csvFileName) {
-        System.out.println(">>> SalesCacheLoadOnlyStore (LoadOnly type) with csv FileName " + csvFileName + " constructed.");
+        System.out.println(
+                ">>> SalesCacheLoadOnlyStore (LoadOnly type) with csv FileName " + csvFileName + " constructed.");
         this.csvFileName = csvFileName;
     }
 
     /** {@inheritDoc} */
-    @Override 
-    protected Iterator<CSVRecord> inputIterator(@Nullable Object... args)
-            throws CacheLoaderException {
-        System.out.println(">>> SalesCacheLoadOnlyStore inputIterator called with args: " +  Arrays.toString(args));
+    @Override
+    protected Iterator<CSVRecord> inputIterator(@Nullable Object... args) throws CacheLoaderException {
+        System.out.println(">>> SalesCacheLoadOnlyStore inputIterator called with args: " + Arrays.toString(args));
 
         /*
          * We have added support for over-riding the configured csvFileName
          * 
-         *   If an argument was supplied at cache.Load(newFilenameArgs), then handle;
-         *   Else just use the configured csvFileName to determine what the fileType was by looking at the name
-         */ 
+         * If an argument was supplied at cache.Load(newFilenameArgs), then handle; Else
+         * just use the configured csvFileName to determine what the fileType was by
+         * looking at the name
+         */
         String file = null; // used to hold just the file name (no path)
-        if (args != null && args.length != 0)
-        {
+        if (args != null && args.length != 0) {
             // if a parameter is supplied to the cache.load() method, handle this
-            csvFileName = args[0].toString();  // the only supported arg is a new csvFileName
+            csvFileName = args[0].toString(); // the only supported arg is a new csvFileName
 
             // Check if supplied args[0] / csvFileName was just a file or full path to file?
-            String[] csvFileArgTokens = args[0].toString().split(Matcher.quoteReplacement(System.getProperty("file.separator"))); // Either short like: [office.csv] or long like: [C:, data, sales, office.csv]
+            String[] csvFileArgTokens = args[0].toString()
+                    .split(Matcher.quoteReplacement(System.getProperty("file.separator"))); // Either short like:
+                                                                                            // [office.csv] or long
+                                                                                            // like: [C:, data, sales,
+                                                                                            // office.csv]
 
             // check the number of tokens in the file arg supplied to decide what to do
             if (csvFileArgTokens.length == 1) {
                 // a single element, not a path, i.e. [office.csv]
-                System.out.println(">>> SalesCacheLoadOnlyStore inputIterator; csvFileArgTokens: " + Arrays.toString(csvFileArgTokens));
+                System.out.println(">>> SalesCacheLoadOnlyStore inputIterator; csvFileArgTokens: "
+                        + Arrays.toString(csvFileArgTokens));
                 file = csvFileArgTokens[0];
             } else {
                 // a path was supplied, i.e. [C:, data, sales, office.csv]
-                System.out.println(">>> SalesCacheLoadOnlyStore inputIterator; csvFileArgTokens: " + Arrays.toString(csvFileArgTokens));
-                file = csvFileArgTokens[(csvFileArgTokens.length-1)]; // i.e. the last token when spliting by file.separator
+                System.out.println(">>> SalesCacheLoadOnlyStore inputIterator; csvFileArgTokens: "
+                        + Arrays.toString(csvFileArgTokens));
+                file = csvFileArgTokens[(csvFileArgTokens.length - 1)]; // i.e. the last token when spliting by
+                                                                        // file.separator
             }
         } else {
-            // no load argument, so figure out fileType by looking at the last part of the configured csvFileName
+            // no load argument, so figure out fileType by looking at the last part of the
+            // configured csvFileName
             String[] csvFileNameTokens = csvFileName.split(Matcher.quoteReplacement(System.getProperty("file.separator")));
 
             // check the number of tokens in the csvFileName to decide what to do
             if (csvFileNameTokens.length == 1) {
                 // a single element, not a path, i.e. [office.csv]
-                System.out.println(">>> SalesCacheLoadOnlyStore inputIterator; csvFileNameTokens: " + Arrays.toString(csvFileNameTokens));
+                System.out.println(">>> SalesCacheLoadOnlyStore inputIterator; csvFileNameTokens: "
+                        + Arrays.toString(csvFileNameTokens));
                 file = csvFileNameTokens[0];
             } else {
                 // a path was supplied, i.e. [C:, data, sales, office.csv]
-                System.out.println(">>> SalesCacheLoadOnlyStore inputIterator; csvFileNameTokens: " + Arrays.toString(csvFileNameTokens));
-                file = csvFileNameTokens[(csvFileNameTokens.length-1)]; // i.e. the last token when spliting by file.separator
+                System.out.println(">>> SalesCacheLoadOnlyStore inputIterator; csvFileNameTokens: "
+                        + Arrays.toString(csvFileNameTokens));
+                file = csvFileNameTokens[(csvFileNameTokens.length - 1)]; // i.e. the last token when spliting by
+                                                                          // file.separator
             }
         }
 
-        // we figured out the filename (either from supplied args or from the cacheStore configured parameter)
-        fileType = (file.split("\\.(?=[^\\.]+$)"))[0].toLowerCase(); // i.e. take the lowercase of the first element of tokens in this form: [office, csv]
+        // we figured out the filename (either from supplied args or from the cacheStore
+        // configured parameter)
+        fileType = (file.split("\\.(?=[^\\.]+$)"))[0].toLowerCase(); // i.e. take the lowercase of the first element of
+                                                                     // tokens in this form: [office, csv]
         System.out.println(">>> SalesCacheLoadOnlyStore inputIterator: csvFileName:" + csvFileName + "; fileType: " + fileType);
 
         try {
-            //System.out.println(">>> SalesCacheLoadOnlyStore.inputIterator() set File Reader for: " + csvFileName + " ...");
+            // System.out.println(">>> SalesCacheLoadOnlyStore.inputIterator() set File
+            // Reader for: " + csvFileName + " ...");
             setReader(csvFileName);
-            CSVParser csvParser = new CSVParser(
-                reader, 
-                CSVFormat.DEFAULT.withEscape('\\').withQuoteMode(QuoteMode.NONE).withFirstRecordAsHeader().withTrim()
-            );
+            CSVParser csvParser = new CSVParser(reader, CSVFormat.DEFAULT
+                .withEscape('\\')
+                .withQuoteMode(QuoteMode.NONE)
+                .withFirstRecordAsHeader()
+                .withTrim());
             Iterator csvIterator = csvParser.iterator();
 
             /**
              * Iterator return CSVRecords
              * 
-             *   Then loader calls parse(CSVRecord)
+             * Then loader calls parse(CSVRecord)
              */
             return new Iterator<CSVRecord>() {
 
                 /** {@inheritDoc} */
-                @Override public boolean hasNext() {
+                @Override
+                public boolean hasNext() {
                     if (!csvIterator.hasNext()) {
                         try {
-                            reader.close();
+                            // try {
+                            //     Thread.sleep(1000); // file contention on Windows <== should not happen when running single node on a machine
+                            // } catch (InterruptedException e) {
+                                reader.close();
+                            // }
                         } catch (IOException e) {
                             e.printStackTrace();
                         }
@@ -168,7 +189,7 @@ public class SalesCacheLoadOnlyStore<K, V> extends CacheLoadOnlyStoreAdapter<Obj
         if (args != null && args.length != 0)
         {
             // we do not handle a runtime arg for parse
-            System.out.println(">>> SalesCacheLoadOnlyStore parse; WE DO NOT HANDLE RUNTIME ARGS HERE: " + Arrays.toString(args));
+            //System.out.println(">>> SalesCacheLoadOnlyStore parse; WE DO NOT HANDLE RUNTIME ARGS HERE: " + Arrays.toString(args));
         }
 
         Object key = null;

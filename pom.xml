@@ -4,11 +4,10 @@
 
     <groupId>org.apache.ignite</groupId>
     <artifactId>SalesDataLoaders</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.4</version>
 
 	<properties>
-        <ignite.version>2.8.0</ignite.version>
-        <gridgain.version>8.7.16</gridgain.version>
+        <ignite.version>2.8.1</ignite.version>
         <java.version>1.8</java.version>
 	</properties>
 

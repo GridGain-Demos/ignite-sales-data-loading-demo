@@ -25,28 +25,28 @@ public class LoadCachesFromCacheStore {
             System.out.println(">>> Loading caches...");
 
             System.out.println(">>> Loading cache: OfficeCache");
-            ignite.cache("OfficeCache").loadCache(null); //, "ProductLine");
+            ignite.cache("OfficeCache").loadCache(null); //, "/home/glenn/data/sales/productline.csv");
 
             System.out.println(">>> Loading cache: ProductLineCache");
-            ignite.cache("ProductLineCache").loadCache(null); //, "ProductLine");
+            ignite.cache("ProductLineCache").loadCache(null); //, "/home/glenn/data/sales/productline.csv");
 
             System.out.println(">>> Loading cache: ProductCache");
-            ignite.cache("ProductCache").loadCache(null); //, "Product");
+            ignite.cache("ProductCache").loadCache(null); //, "/home/glenn/data/sales/product.csv");
 
             System.out.println(">>> Loading cache: EmployeeCache");
-            ignite.cache("EmployeeCache").loadCache(null); //, "Employee");
+            ignite.cache("EmployeeCache").loadCache(null); //, "/home/glenn/data/sales/employee.csv");
 
             System.out.println(">>> Loading cache: CustomerCache");
-            ignite.cache("CustomerCache").loadCache(null); //, "Customer");
+            ignite.cache("CustomerCache").loadCache(null); //, "/home/glenn/data/sales/customer.csv");
 
             System.out.println(">>> Loading cache: OrderCache");
-            ignite.cache("OrderCache").loadCache(null); //, "Order");
+            ignite.cache("OrderCache").loadCache(null); //, "/home/glenn/data/sales/order.csv");
 
             System.out.println(">>> Loading cache: OrderDetailCache");
-            ignite.cache("OrderDetailCache").loadCache(null); //, "OrderDetail");
+            ignite.cache("OrderDetailCache").loadCache(null); //, "/home/glenn/data/sales/orderdetail.csv");
 
             System.out.println(">>> Loading cache: PaymentCache");
-            ignite.cache("PaymentCache").loadCache(null); //, "Payment");
+            ignite.cache("PaymentCache").loadCache(null); //, "/home/glenn/data/sales/payment.csv");
 
             System.out.println(">>> All caches loaded!");
         }
