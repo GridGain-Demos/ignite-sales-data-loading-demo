@@ -21,6 +21,7 @@ import org.apache.ignite.Ignite;
 import org.apache.ignite.IgniteDataStreamer;
 import org.apache.ignite.IgniteException;
 import org.apache.ignite.Ignition;
+import org.apache.ignite.configuration.IgniteConfiguration;
 
 import com.gridgain.sales.model.Customer;
 import com.gridgain.sales.model.Employee;
@@ -40,6 +41,7 @@ import org.apache.commons.csv.CSVRecord;
 import org.apache.commons.csv.QuoteMode;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.Reader;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -70,23 +72,21 @@ public class LoadCachesFromCsv {
         CSVParser csvParser = null;
         int n = 0; // record counter
 
-        static {
-            try (InputStream in = IgniteConfiguration.class.getClassLoader().getResourceAsStream("sales.properties")) {
-                props.load(in);
-                dataLocation = props.getProperty("dataLocation");
-                System.out.println(">>>>>>>>>>>>>>>>> loaded properties sales.properties; dataLocation set to: " + dataLocation);
-            }
-            catch (Exception ignored) {
-                System.out.println(">>>>>>>>>>>>>>>>> Failed loading properties; using default dataLocation: " + dataLocation);
-            }
+        try (InputStream in = IgniteConfiguration.class.getClassLoader().getResourceAsStream("sales.properties")) {
+            props.load(in);
+            dataLocation = props.getProperty("dataLocation");
+            System.out.println(">>>>>>>>>>>>>>>>> loaded properties sales.properties; dataLocation set to: " + dataLocation);
         }
-    
+        catch (Exception ignored) {
+            System.out.println(">>>>>>>>>>>>>>>>> Failed loading properties; using default dataLocation: " + dataLocation);
+        }
+
         try (Ignite ignite = Ignition.start("sales-client.xml")){
             System.out.println(">>> CSV Stream Loading caches:");
 
             /** Office Cache */
             System.out.println(">>>>>>>>>>>>>>>>> OfficeCache...");
-            Reader reader = Files.newBufferedReader(Paths.get("/data/sales/office.csv"), StandardCharsets.UTF_8);
+            Reader reader = Files.newBufferedReader(Paths.get(dataLocation + "office.csv"), StandardCharsets.UTF_8);
             csvParser = new CSVParser(
                 reader, 
                 CSVFormat.DEFAULT
@@ -130,7 +130,7 @@ public class LoadCachesFromCsv {
              * ------------------------------------------------------------------------------------------------------------
              */
             System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>> ProductLineCache...");
-            reader = Files.newBufferedReader(Paths.get("Data/productline.csv"), StandardCharsets.UTF_8);
+            reader = Files.newBufferedReader(Paths.get(dataLocation + "productline.csv"), StandardCharsets.UTF_8);
             csvParser = new CSVParser(reader, CSVFormat.DEFAULT.withEscape('\\').withQuoteMode(QuoteMode.NONE).withFirstRecordAsHeader().withTrim());
 
             try (IgniteDataStreamer<String, ProductLine> streamer = ignite.dataStreamer("ProductLineCache")){
@@ -162,7 +162,7 @@ public class LoadCachesFromCsv {
              * ------------------------------------------------------------------------------------------------------------
              */
             System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>> ProductCache...");
-            reader = Files.newBufferedReader(Paths.get("Data/product.csv"), StandardCharsets.UTF_8);
+            reader = Files.newBufferedReader(Paths.get(dataLocation + "product.csv"), StandardCharsets.UTF_8);
             csvParser = new CSVParser(reader, CSVFormat.DEFAULT.withEscape('\\').withQuoteMode(QuoteMode.NONE).withFirstRecordAsHeader().withTrim());
 
             try (IgniteDataStreamer<String, Product> streamer = ignite.dataStreamer("ProductCache")){
@@ -200,7 +200,7 @@ public class LoadCachesFromCsv {
              * ------------------------------------------------------------------------------------------------------------
              */
             System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>> EmployeeCache...");
-            reader = Files.newBufferedReader(Paths.get("Data/employee.csv"), StandardCharsets.UTF_8);
+            reader = Files.newBufferedReader(Paths.get(dataLocation + "employee.csv"), StandardCharsets.UTF_8);
             csvParser = new CSVParser(reader, CSVFormat.DEFAULT.withEscape('\\').withQuoteMode(QuoteMode.NONE).withFirstRecordAsHeader().withTrim());
 
             try (IgniteDataStreamer<Integer, Employee> streamer = ignite.dataStreamer("EmployeeCache")){
@@ -237,7 +237,7 @@ public class LoadCachesFromCsv {
              * ------------------------------------------------------------------------------------------------------------
              */
             System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>> CustomerCache...");
-            reader = Files.newBufferedReader(Paths.get("Data/Customer.csv"), StandardCharsets.UTF_8);
+            reader = Files.newBufferedReader(Paths.get(dataLocation + "customer.csv"), StandardCharsets.UTF_8);
             csvParser = new CSVParser(reader, CSVFormat.DEFAULT.withEscape('\\').withQuoteMode(QuoteMode.NONE).withFirstRecordAsHeader().withTrim());
 
             try (IgniteDataStreamer<Integer, Customer> streamer = ignite.dataStreamer("CustomerCache")){
@@ -279,7 +279,7 @@ public class LoadCachesFromCsv {
              * ------------------------------------------------------------------------------------------------------------
              */
             System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>> OrderCache...");
-            reader = Files.newBufferedReader(Paths.get("Data/order.csv"), StandardCharsets.UTF_8);
+            reader = Files.newBufferedReader(Paths.get(dataLocation + "order.csv"), StandardCharsets.UTF_8);
             csvParser = new CSVParser(reader, CSVFormat.DEFAULT.withEscape('\\').withQuoteMode(QuoteMode.NONE).withFirstRecordAsHeader().withTrim());
 
             try (IgniteDataStreamer<Integer, Order> streamer = ignite.dataStreamer("OrderCache")){
@@ -313,7 +313,7 @@ public class LoadCachesFromCsv {
              * OrderDetail
              **/
             System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>> OrderDetailCache...");
-            reader = Files.newBufferedReader(Paths.get("Data/orderdetail.csv"), StandardCharsets.UTF_8);
+            reader = Files.newBufferedReader(Paths.get(dataLocation + "orderdetail.csv"), StandardCharsets.UTF_8);
             csvParser = new CSVParser(reader, 
                 CSVFormat.DEFAULT
                 .withEscape('\\')
@@ -353,7 +353,7 @@ public class LoadCachesFromCsv {
              * ------------------------------------------------------------------------------------------------------------
              */
             System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>> PaymentCache...");
-            reader = Files.newBufferedReader(Paths.get("Data/payment.csv"), StandardCharsets.UTF_8);
+            reader = Files.newBufferedReader(Paths.get(dataLocation + "payment.csv"), StandardCharsets.UTF_8);
             csvParser = new CSVParser(reader, CSVFormat.DEFAULT.withEscape('\\').withQuoteMode(QuoteMode.NONE).withFirstRecordAsHeader().withTrim());
 
             try (IgniteDataStreamer<PaymentKey, Payment> streamer = ignite.dataStreamer("PaymentCache")){
