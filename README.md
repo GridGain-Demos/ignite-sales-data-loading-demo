@@ -1,4 +1,4 @@
-# Data Loaders for the Ignite Sales IMDB
+# Data Loading Patterns Based on Sales Database Example
 
 ## Components
 This project illustrates four simple loading techniques for:
