@@ -9,7 +9,7 @@
 	<properties>
         <ignite.version>2.8.1</ignite.version>
         <java.version>1.8</java.version>
-        <runtime.location>~/apache-ignite-2.8.1-bin</runtime.location>
+        <runtime.location>/home/glenn/apache-ignite-2.8.1-bin</runtime.location>
 	</properties>
 
     <repositories>
@@ -101,6 +101,18 @@
                                     <artifactId>${project.artifactId}</artifactId>
                                     <version>${project.version}</version>
                                     <type>${project.packaging}</type>
+                                </artifactItem>
+                                <artifactItem>
+                                    <groupId>org.apache.commons</groupId>
+                                    <artifactId>commons-csv</artifactId>
+                                    <version>1.5</version>
+                                   <type>jar</type>
+                                </artifactItem>
+                                <artifactItem>
+                                    <groupId>mysql</groupId>
+                                    <artifactId>mysql-connector-java</artifactId>
+                                    <version>5.1.48</version>
+                                    <type>jar</type>
                                 </artifactItem>
                             </artifactItems>
                             <outputDirectory>${runtime.location}/libs/</outputDirectory>

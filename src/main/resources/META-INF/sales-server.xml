@@ -35,7 +35,6 @@
         <property name="communicationSpi">
             <bean class="org.apache.ignite.spi.communication.tcp.TcpCommunicationSpi">
                 <property name="localPort" value="31100"/>
-                <property name="sharedMemoryPort" value="31200"/>
             </bean>
         </property>
 
