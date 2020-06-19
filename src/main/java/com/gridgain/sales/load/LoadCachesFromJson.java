@@ -21,6 +21,7 @@ import org.apache.ignite.Ignite;
 import org.apache.ignite.IgniteDataStreamer;
 import org.apache.ignite.IgniteException;
 import org.apache.ignite.Ignition;
+import org.apache.ignite.configuration.IgniteConfiguration;
 
 import com.gridgain.sales.model.Customer;
 import com.gridgain.sales.model.Employee;
@@ -39,6 +40,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.text.DateFormat;
@@ -47,12 +49,14 @@ import java.text.NumberFormat;
 import java.text.SimpleDateFormat;
 import java.util.Iterator;
 import java.util.Map;
+import java.util.Properties;
 
 /**
  * Starts up an empty node with example compute configuration.
  */
 public class LoadCachesFromJson {
 
+    private static final Properties props = new Properties();
     static DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
 
     /**
@@ -62,10 +66,20 @@ public class LoadCachesFromJson {
      * @throws IgniteException If failed.
      */
     public static void main(String[] args) throws IgniteException, IOException {
+        String dataLocation = "/data/sales/"; // default location
         DecimalFormat numFormat = (DecimalFormat)NumberFormat.getCurrencyInstance();
         String symbol = numFormat.getCurrency().getSymbol();
         numFormat.setNegativePrefix("-"+symbol);
         numFormat.setNegativeSuffix("");
+
+        try (InputStream in = IgniteConfiguration.class.getClassLoader().getResourceAsStream("sales.properties")) {
+            props.load(in);
+            dataLocation = props.getProperty("dataLocation");
+            System.out.println(">>>>>>>>>>>>>>>>> loaded properties sales.properties; dataLocation set to: " + dataLocation);
+        }
+        catch (Exception ignored) {
+            System.out.println(">>>>>>>>>>>>>>>>> Failed loading properties; using default dataLocation: " + dataLocation);
+        }
 
         try (Ignite ignite = Ignition.start("sales-client.xml")){
 
@@ -73,16 +87,16 @@ public class LoadCachesFromJson {
 
             /*
              * ------------------------------------------------------------------------------------------------------------
-             * Customers.json
+             * customer.json
              * ------------------------------------------------------------------------------------------------------------
              */
             System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>> CustomerCache...");
-            //Reader reader = Files.newBufferedReader(Paths.get("Data/Customers.json"), StandardCharsets.UTF_8);
+            //Reader reader = Files.newBufferedReader(Paths.get(dataLocation + "customer.json"), StandardCharsets.UTF_8);
 
             JsonFactory factory = new JsonFactory();
 
             //read json file data to String
-    		byte[] jsonData = Files.readAllBytes(Paths.get("Data/Customers.json"));
+    		byte[] jsonData = Files.readAllBytes(Paths.get(dataLocation + "customer.json"));
     		
             ObjectMapper mapper = new ObjectMapper(factory);
             JsonNode CustomerNode = mapper.readTree(jsonData);  
