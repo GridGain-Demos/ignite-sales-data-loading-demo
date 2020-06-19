@@ -1,7 +1,8 @@
-# eclipse project file
+# eclipse,vs code project files
 .settings/
 .classpath
 .project
+.code-workspace
 
 # Maven
 target/
@@ -10,4 +11,6 @@ target/
 jdbc-drivers
 
 # GridGain Cluster secret properties
-sales.properties
+# In prod, one would not check in these properties, but build them for each environment
+# Here, we will include them for sake of the example project
+#sales.properties

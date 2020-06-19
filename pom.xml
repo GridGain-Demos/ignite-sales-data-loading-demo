@@ -9,6 +9,7 @@
 	<properties>
         <ignite.version>2.8.1</ignite.version>
         <java.version>1.8</java.version>
+        <runtime.location>~/apache-ignite-2.8.1-bin</runtime.location>
 	</properties>
 
     <repositories>
@@ -102,7 +103,7 @@
                                     <type>${project.packaging}</type>
                                 </artifactItem>
                             </artifactItems>
-                            <outputDirectory>/apps/ignite-${ignite.version}/libs/</outputDirectory>
+                            <outputDirectory>${runtime.location}/libs/</outputDirectory>
                         </configuration>
                     </execution>
                 </executions>
