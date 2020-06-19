@@ -46,11 +46,15 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
+import java.util.Properties;
 
 /**
  * Ignite Client loads data from CSV files to Caches via Ignite DataStreamer
  */
 public class LoadCachesFromCsv {
+
+    private static final Properties props = new Properties();
+
     /**
      * Start an Ignite Client and perform CSV Reading -> Cache Writing (via Ignite DataStreamer)
      *
@@ -58,6 +62,7 @@ public class LoadCachesFromCsv {
      * @throws IgniteException If failed.
      */
     public static void main(String[] args) throws IgniteException, IOException {
+        String dataLocation = "/data/sales/"; // default location
         DecimalFormat numFormat = (DecimalFormat)NumberFormat.getCurrencyInstance();
         String symbol = numFormat.getCurrency().getSymbol();
         numFormat.setNegativePrefix("-"+symbol);
@@ -65,6 +70,17 @@ public class LoadCachesFromCsv {
         CSVParser csvParser = null;
         int n = 0; // record counter
 
+        static {
+            try (InputStream in = IgniteConfiguration.class.getClassLoader().getResourceAsStream("sales.properties")) {
+                props.load(in);
+                dataLocation = props.getProperty("dataLocation");
+                System.out.println(">>>>>>>>>>>>>>>>> loaded properties sales.properties; dataLocation set to: " + dataLocation);
+            }
+            catch (Exception ignored) {
+                System.out.println(">>>>>>>>>>>>>>>>> Failed loading properties; using default dataLocation: " + dataLocation);
+            }
+        }
+    
         try (Ignite ignite = Ignition.start("sales-client.xml")){
             System.out.println(">>> CSV Stream Loading caches:");
 

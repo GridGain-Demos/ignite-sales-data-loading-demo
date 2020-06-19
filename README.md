@@ -72,7 +72,7 @@ mvn clean install
 [INFO] BUILD SUCCESS
 ```
 List your Ignite runtime libs location to confirm your file is there, e.g. `ls -l ~/apache-ignite-2.8.1-bin/libs` and lood for `SalesDataLoaders-0.0.4.jar`  
-Copy the two extra libraries/dependencies that we included in our project: org.apache.commons:commons-csv:1.5 and mysql:mysql-connector-java:5.1.48
+The two extra libraries/dependencies that we included in our project: org.apache.commons:commons-csv:1.5 and mysql:mysql-connector-java:5.1.48 should have been copied over as part of the Maven install phase. However, if not, manually copy these files to your Ignite runtime libs folder. 
 
 
 ### 5. Run Server
@@ -86,11 +86,11 @@ Copy the two extra libraries/dependencies that we included in our project: org.a
 >>> OS name: Linux 4.4.0-19041-Microsoft amd64
 >>> CPU(s): 12
 >>> Heap: 7.0GB
->>> VM name: 4833@GLENN-X1Exteme.localdomain
+>>> VM name: 5919@GLENN-X1Exteme.localdomain
 >>> Ignite instance name: sales
->>> Local node [ID=D1EAA846-18C1-4621-846F-6C1837AC45C9, order=1, clientMode=false]
+>>> Local node [ID=2204AC49-91CF-4B1B-9479-AE4EF48B8EFC, order=1, clientMode=false]
 >>> Local node addresses: [127.0.0.1]
->>> Local ports: TCP:8031 TCP:10831 TCP:11231 TCP:31100 TCP:31200 TCP:31500
+>>> Local ports: TCP:8031 TCP:10831 TCP:11231 TCP:31100 TCP:31500
 
 [11:31:49,378][INFO][main][IgniteKernal%sales] >>> Ignite cluster is not active (limited functionality available). Use control.(sh|bat) script or IgniteCluster interface to activate.
 ```
