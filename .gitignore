@@ -7,6 +7,9 @@
 # Maven
 target/
 
+# Test Runtime
+ignite/
+
 # Binary / Jar files
 jdbc-drivers
 

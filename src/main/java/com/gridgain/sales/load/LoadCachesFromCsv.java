@@ -74,7 +74,7 @@ public class LoadCachesFromCsv {
 
         try (InputStream in = IgniteConfiguration.class.getClassLoader().getResourceAsStream("sales.properties")) {
             props.load(in);
-            dataLocation = props.getProperty("dataLocation");
+            dataLocation = props.getProperty("dataLocation"); // <====================================================================================
             System.out.println(">>>>>>>>>>>>>>>>> loaded properties sales.properties; dataLocation set to: " + dataLocation);
         }
         catch (Exception ignored) {
@@ -84,7 +84,11 @@ public class LoadCachesFromCsv {
         try (Ignite ignite = Ignition.start("sales-client.xml")){
             System.out.println(">>> CSV Stream Loading caches:");
 
-            /** Office Cache */
+            /*
+             * ------------------------------------------------------------------------------------------------------------
+             * Office
+             * ------------------------------------------------------------------------------------------------------------
+             */
             System.out.println(">>>>>>>>>>>>>>>>> OfficeCache...");
             Reader reader = Files.newBufferedReader(Paths.get(dataLocation + "office.csv"), StandardCharsets.UTF_8);
             csvParser = new CSVParser(
